@@ -4,6 +4,7 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
+import PAP.ENTITY.IUser;
 import PAP.ENTITY.IUserFactory;
 import PAP.ENTITY.UserFactory;
 
@@ -45,7 +46,10 @@ public class Application implements IApplication {
 	@Override
 	public void subscribe(String name, String email, String pass, String city) throws AlreadyExistsException {
 		// TODO Auto-generated method stub
-		new UserFactory().createUser(name, email, pass, city);
+		IUserFactory fact = new UserFactory();
+		IUser newUser = fact.createUser(name, email, pass, city);
+		em.persist(newUser);
+		
 	
 	}
 }
