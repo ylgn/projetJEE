@@ -2,7 +2,6 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-import PAP.SESSION.AlreadyExistsException;
 import PAP.SESSION.IApplication;
 
 public class app {
@@ -13,12 +12,9 @@ public class app {
 		try {
 			ctx = new InitialContext();
 			app = (IApplication) ctx.lookup("ejb/PAP");
-			try {
-				app.subscribe("Yannis","mail@mail.fr","pass","Poissy");
-			} catch (AlreadyExistsException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			System.out.println("app " + app);
+			app.subscribe("C","yannis.le-guen@hotmail.fr","pass","Poissy");
+			
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -5,7 +5,7 @@ import javax.ejb.Remote;
 @Remote
 public interface IApplication {
 	public void connect();
-	public void subscribe(String name,String email,String pass,String city) throws AlreadyExistsException;
+	public void subscribe(String name,String email,String pass,String city) ;
 	public void dropObject();
 	public void search();
 	public void buyObject();
