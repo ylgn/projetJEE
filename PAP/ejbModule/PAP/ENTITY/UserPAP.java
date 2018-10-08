@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 @Entity
-public class UserPAP implements  Serializable{
+public class UserPAP implements  Serializable, IUserPAP{
 	
 	@Id @GeneratedValue
 	private int id;
@@ -28,6 +28,10 @@ public class UserPAP implements  Serializable{
 	 * @see PAP.ENTITY.IUser#getMail()
 	 */
 	 
+	/* (non-Javadoc)
+	 * @see PAP.ENTITY.IUserPAP#getMail()
+	 */
+	@Override
 	public String getMail() {
 		return mail;
 	}
@@ -36,6 +40,10 @@ public class UserPAP implements  Serializable{
 	 */
 	
 	
+	/* (non-Javadoc)
+	 * @see PAP.ENTITY.IUserPAP#setMail(java.lang.String)
+	 */
+	@Override
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
@@ -43,6 +51,10 @@ public class UserPAP implements  Serializable{
 	 * @see PAP.ENTITY.IUser#getName()
 	 */
 	
+	/* (non-Javadoc)
+	 * @see PAP.ENTITY.IUserPAP#getName()
+	 */
+	@Override
 	public String getName() {
 		return name;
 	}
@@ -50,6 +62,10 @@ public class UserPAP implements  Serializable{
 	 * @see PAP.ENTITY.IUser#setName(java.lang.String)
 	 */
 	
+	/* (non-Javadoc)
+	 * @see PAP.ENTITY.IUserPAP#setName(java.lang.String)
+	 */
+	@Override
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -57,6 +73,10 @@ public class UserPAP implements  Serializable{
 	 * @see PAP.ENTITY.IUser#getCity()
 	 */
 	
+	/* (non-Javadoc)
+	 * @see PAP.ENTITY.IUserPAP#getCity()
+	 */
+	@Override
 	public String getCity() {
 		return city;
 	}
@@ -64,12 +84,20 @@ public class UserPAP implements  Serializable{
 	 * @see PAP.ENTITY.IUser#setCity(java.lang.String)
 	 */
 	
+	/* (non-Javadoc)
+	 * @see PAP.ENTITY.IUserPAP#setCity(java.lang.String)
+	 */
+	@Override
 	public void setCity(String city) {
 		this.city = city;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUser#getPass()
 	 */
+	/* (non-Javadoc)
+	 * @see PAP.ENTITY.IUserPAP#getPass()
+	 */
+	@Override
 	public String getPass() {
 		return pass;
 	}
@@ -77,6 +105,10 @@ public class UserPAP implements  Serializable{
 	 * @see PAP.ENTITY.IUser#setPass(java.lang.String)
 	 */
 	
+	/* (non-Javadoc)
+	 * @see PAP.ENTITY.IUserPAP#setPass(java.lang.String)
+	 */
+	@Override
 	public void setPass(String pass) {
 		this.pass = pass;
 	}
