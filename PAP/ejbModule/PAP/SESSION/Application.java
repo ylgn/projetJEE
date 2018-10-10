@@ -4,7 +4,7 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import PAP.ENTITY.IUserPAP;
+import PAP.ENTITY.AlreadyExistsUserException;
 import PAP.ENTITY.IUserPAPFactory;
 import PAP.ENTITY.UserPAP;
 import PAP.ENTITY.UserPAPFactory;
@@ -12,7 +12,7 @@ import PAP.ENTITY.UserPAPFactory;
 @Stateless (mappedName = "ejb/PAP")
 public class Application implements IApplication {
 	@PersistenceContext(unitName = "PAPdB")
-	EntityManager em;
+	private EntityManager em;
 	
 	@Override
 	public void connect() {
@@ -43,11 +43,12 @@ public class Application implements IApplication {
 		// TODO Auto-generated method stub
 
 	}
-
+	public EntityManager getEntityManager() {
+		return em;
+	}
 	@Override
-	public void subscribe(String name, String email, String pass, String city) {
-		IUserPAPFactory fact = new UserPAPFactory();
-		UserPAP newUser = fact.createUser(email, city, name, pass);
+	public void subscribe(String name, String email, String pass, String city) throws AlreadyExistsUserException {
 		em.persist(new UserPAPFactory().createUser(email, city, name, pass));
 	}
+
 }

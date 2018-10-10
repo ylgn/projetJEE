@@ -13,7 +13,7 @@ public class app {
 			ctx = new InitialContext();
 			app = (IApplication) ctx.lookup("ejb/PAP");
 			System.out.println("app " + app);
-			app.subscribe("C","yannis.le-guen@hotmail.fr","pass","Poissy");
+			app.subscribe("admin","admin@pap.fr","admin","Paris");
 			
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
