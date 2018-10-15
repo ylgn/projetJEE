@@ -1,8 +1,5 @@
 package PAP.ENTITY;
 
-import javax.persistence.Entity;
-
-
 public interface IUserPAP {
 
 	String getMail();

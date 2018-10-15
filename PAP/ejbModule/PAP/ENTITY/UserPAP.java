@@ -2,17 +2,26 @@ package PAP.ENTITY;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 @Entity
+
 public class UserPAP implements  Serializable, IUserPAP{
 	
-	@Id @GeneratedValue
+	
+	private static final long serialVersionUID = 1L;
+	@Id
+	@GeneratedValue
 	private int id;
+	@Column(name="MAIL",length=50,unique=true)
 	private String mail;
+	@Column(name="NAME")
 	private String name;
+	@Column(name="CITY")
 	private String city;
+	@Column(name="PASS")
 	private String pass;
 	
 	public UserPAP() {
@@ -33,7 +42,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	 */
 	@Override
 	public String getMail() {
-		return mail;
+		return this.mail;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUser#setMail(java.lang.String)
@@ -112,6 +121,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	public void setPass(String pass) {
 		this.pass = pass;
 	}
+	
 	
 
 }

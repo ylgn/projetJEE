@@ -1,11 +1,16 @@
 package PAP.SESSION;
 
+import java.util.List;
+
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 
 import PAP.ENTITY.AlreadyExistsUserException;
-import PAP.ENTITY.IUserPAPFactory;
+import PAP.ENTITY.ObjectPAP;
+import PAP.ENTITY.ObjectPAPFactory;
+import PAP.ENTITY.TransactionPAP;
 import PAP.ENTITY.UserPAP;
 import PAP.ENTITY.UserPAPFactory;
 
@@ -15,40 +20,75 @@ public class Application implements IApplication {
 	private EntityManager em;
 	
 	@Override
-	public void connect() {
+	public void connect(String mail, String pass) {
 		// TODO Auto-generated method stub
 
 	}
 
 	@Override
-	public void dropObject() {
-		// TODO Auto-generated method stub
+	public void dropObject(String name,String description,double price) {
+		UserPAP seller = new UserPAP();
+		em.persist(new ObjectPAPFactory().createObject(name, description, price, seller));
 
 	}
 
 	@Override
-	public void search() {
-		// TODO Auto-generated method stub
+	public String search(String name, String city) {
+		String searchList="";
+		String query = ("SELECT o FROM ObjectPAP o WHERE o.nameObject = :nameObject and o.cityObject = :cityObject");
+		Query req = em.createQuery (query).setParameter("nameObject", name);
+		req.setParameter("cityObject", city);
+		List<ObjectPAP> listOfAllObject = req.getResultList();
+		for (ObjectPAP objectPAP : listOfAllObject) {
+			searchList+=objectPAP.toStringue();
+		}
+		return searchList;
+	} 
+		
+
+	@Override
+	public void buyObject(String product) {
+		// Lire un string et instancier une nouvelle transaction
 
 	}
 
 	@Override
-	public void buyObject() {
-		// TODO Auto-generated method stub
+	public Double calculateTurnover() {
+		double turnoverPAP = 0;
+		String query = ("SELECT * FROM TransactionPAP");
+		Query req = em.createQuery(query);
+		List<TransactionPAP> listTransact = req.getResultList();
+		for (TransactionPAP transactionPAP : listTransact) {
+			turnoverPAP+=transactionPAP.getPAPFeesAmount();
+		}
+		return turnoverPAP;
 
 	}
-
+	
 	@Override
-	public void calculateTurnover() {
-		// TODO Auto-generated method stub
-
-	}
-	public EntityManager getEntityManager() {
-		return em;
-	}
-	@Override
-	public void subscribe(String name, String email, String pass, String city) throws AlreadyExistsUserException {
+	public void subscribe(String name, String email, String pass, String city)  {
+		if (IsUserExistByMail(email)) {
+			//throw new AlreadyExistsUserException("An user already exists with the mail adress : "+email);
+		}else { 
 		em.persist(new UserPAPFactory().createUser(email, city, name, pass));
+		}
+		
 	}
+	public Boolean IsUserExistByMail(String mail) {
+		String query = ("SELECT o FROM UserPAP o WHERE o.mail = :adresseEMail");
+		Query req = em.createQuery (query).setParameter("adresseEMail", mail);
+		return !req.getResultList().isEmpty();
+	}
+	public UserPAP getUserByMail(String mail) {
+		//Query req = em.createQuery ("select * from USERPAP where MAIL = :param2");
+		//String query = ("SELECT a FROM USERS a WHERE a.MAIl ='" + mail + "'");
+		String query = ("SELECT o FROM UserPAP o WHERE o.mail = :adresseEMail");
+		Query req = em.createQuery (query).setParameter("adresseEMail", mail);
+		//req.setParameter ("mail",mail);
+		List<UserPAP> listUser = req.getResultList();
+		return null;
+	}
+	
+		
 
 }
