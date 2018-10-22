@@ -6,6 +6,9 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.servlet.http.HttpSession;
+
+import com.sun.xml.ws.runtime.dev.Session;
 
 import PAP.ENTITY.AlreadyExistsUserException;
 import PAP.ENTITY.ObjectPAP;
@@ -16,19 +19,24 @@ import PAP.ENTITY.UserPAPFactory;
 
 @Stateless (mappedName = "ejb/PAP")
 public class Application implements IApplication {
+
 	@PersistenceContext(unitName = "PAPdB")
 	private EntityManager em;
 	
 	@Override
 	public void connect(String mail, String pass) {
-		// TODO Auto-generated method stub
+		
+		String searchlist="";
+		String query = "SELECT o FROM UserPAP WHERE o.pass= :passUser AND o.mail= :mail";
+		Query req = em.createQuery(query);
+		req.setParameter("passUser",pass);
 
 	}
 
 	@Override
 	public void dropObject(String name,String description,double price) {
-		UserPAP seller = new UserPAP();
-		em.persist(new ObjectPAPFactory().createObject(name, description, price, seller));
+		//UserPAP seller = new UserPAP();
+		//em.persist(new ObjectPAPFactory().createObject(name, description, price, seller));
 
 	}
 
@@ -80,13 +88,14 @@ public class Application implements IApplication {
 		return !req.getResultList().isEmpty();
 	}
 	public UserPAP getUserByMail(String mail) {
-		//Query req = em.createQuery ("select * from USERPAP where MAIL = :param2");
-		//String query = ("SELECT a FROM USERS a WHERE a.MAIl ='" + mail + "'");
 		String query = ("SELECT o FROM UserPAP o WHERE o.mail = :adresseEMail");
 		Query req = em.createQuery (query).setParameter("adresseEMail", mail);
-		//req.setParameter ("mail",mail);
 		List<UserPAP> listUser = req.getResultList();
-		return null;
+		for (UserPAP userPAP : listUser) {
+			if(userPAP.getMail()==mail) {
+				return userPAP;
+			}
+		}return null;
 	}
 	
 		
