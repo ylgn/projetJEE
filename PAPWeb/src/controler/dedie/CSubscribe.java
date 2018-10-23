@@ -22,7 +22,7 @@ public class CSubscribe implements ICTreatment {
 	}
 	
 	@Override
-	public void treatRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public void treatRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		//We get request's attributes 
 		this.name = (String) request.getAttribute("name");
 		this.email = (String) request.getAttribute("email");

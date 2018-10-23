@@ -7,5 +7,5 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public interface ICTreatment {
-	public void treatRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException ;
+	public void treatRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, Exception ;
 }

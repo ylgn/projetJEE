@@ -6,16 +6,12 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import javax.servlet.http.HttpSession;
 
-import com.sun.xml.ws.runtime.dev.Session;
-
-import PAP.ENTITY.AlreadyExistsUserException;
 import PAP.ENTITY.ObjectPAP;
-import PAP.ENTITY.ObjectPAPFactory;
 import PAP.ENTITY.TransactionPAP;
 import PAP.ENTITY.UserPAP;
 import PAP.ENTITY.UserPAPFactory;
+import PAP.EXCEPTION.AlreadyExistsUserException;
 
 @Stateless (mappedName = "ejb/PAP")
 public class Application implements IApplication {
@@ -74,9 +70,9 @@ public class Application implements IApplication {
 	}
 	
 	@Override
-	public void subscribe(String name, String email, String pass, String city)  {
+	public void subscribe(String name, String email, String pass, String city) throws AlreadyExistsUserException  {
 		if (IsUserExistByMail(email)) {
-			//throw new AlreadyExistsUserException("An user already exists with the mail adress : "+email);
+			throw new AlreadyExistsUserException("An user already exists with the mail adress : "+email);
 		}else { 
 		em.persist(new UserPAPFactory().createUser(email, city, name, pass));
 		}
