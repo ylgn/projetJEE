@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_181]">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/webserv">
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/aopalliance-repackaged-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/asm-debug-all-5.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/genson-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/hk2-api-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/hk2-locator-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/hk2-utils-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/javax.inject-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/jersey-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/jersey-common.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/jersey-guava-2.23.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/jersey-server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/gf-client.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

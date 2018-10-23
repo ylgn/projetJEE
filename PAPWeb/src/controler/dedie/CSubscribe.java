@@ -24,6 +24,7 @@ public class CSubscribe implements ICTreatment {
 	@Override
 	public void treatRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		//We get request's attributes 
+		
 		this.name = (String) request.getAttribute("name");
 		this.email = (String) request.getAttribute("email");
 		this.pass = (String) request.getAttribute("pass");
@@ -31,7 +32,7 @@ public class CSubscribe implements ICTreatment {
 		//We ask glassfish for suscribe the adherent
 		app.subscribe(name, email, pass, city);
 		//
-		RequestDispatcher dispatch = request.getRequestDispatcher("./index.jsp");
+		RequestDispatcher dispatch = request.getRequestDispatcher("./View/subscribeAns.jsp");
 		dispatch.forward(request, response);
 	}
 

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Création de compte</title>
+</head>
+<body>
+<form action="../CAppli" method="post">
+		<h2> Formulaire de création de compte </h2> <br/>
+		Nom : <input name="name" />  <br/>	
+		Email : <input name="email" />  <br/>	
+		Pass : <input name="pass" />  <br/>	
+		Ville : <input name="city" />  <br/>	
+		<!-- Ce paramètre http servira au controleur à identifier la fonction métier de la requête http -->	
+		<input type="hidden" name="function" value ="subscribe" />
+		<button> Valider </button>
+	</form>
+</body>
+</html>
