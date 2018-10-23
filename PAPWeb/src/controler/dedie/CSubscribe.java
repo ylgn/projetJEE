@@ -27,13 +27,11 @@ public class CSubscribe implements ICTreatment {
 		this.name = (String) request.getAttribute("name");
 		this.email = (String) request.getAttribute("email");
 		this.pass = (String) request.getAttribute("pass");
-		this.city = (String) request.getAttribute("city");
-		
+		this.city = (String) request.getAttribute("city");	
 		//We ask glassfish for suscribe the adherent
 		app.subscribe(name, email, pass, city);
-		
 		//
-		RequestDispatcher dispatch = request.getRequestDispatcher(".///////////////////////");
+		RequestDispatcher dispatch = request.getRequestDispatcher("./index.jsp");
 		dispatch.forward(request, response);
 	}
 

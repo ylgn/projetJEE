@@ -42,10 +42,10 @@ public class CAppli extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String fonction = request.getParameter("fonction");
-		String nomClasse = getServletContext().getInitParameter(fonction);
+		String function = request.getParameter("function");
+		String className = getServletContext().getInitParameter(function);
 		try {
-			ICTreatment controleurDedie = (ICTreatment) Class.forName(nomClasse).newInstance();
+			ICTreatment controleurDedie = (ICTreatment) Class.forName(className).newInstance();
 			controleurDedie.treatRequest(request, response);
 		} catch (Exception e) {
 			e.printStackTrace();
