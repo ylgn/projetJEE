@@ -6,13 +6,19 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.MediaType;
 
 import PAP.ENTITY.ObjectPAP;
+import PAP.ENTITY.ObjectPAPFactory;
 import PAP.ENTITY.TransactionPAP;
 import PAP.ENTITY.UserPAP;
 import PAP.ENTITY.UserPAPFactory;
 import PAP.EXCEPTION.AlreadyExistsUserException;
 
+@Path("/app")
 @Stateless (mappedName = "ejb/PAP")
 public class Application implements IApplication {
 
@@ -30,9 +36,12 @@ public class Application implements IApplication {
 	}
 
 	@Override
+	@POST
+	@Path("/object")
+	@Consumes(MediaType.APPLICATION_JSON)
 	public void dropObject(String name,String description,double price) {
-		//UserPAP seller = new UserPAP();
-		//em.persist(new ObjectPAPFactory().createObject(name, description, price, seller));
+		UserPAP seller = new UserPAP();
+		em.persist(new ObjectPAPFactory().createObject(name, description, price, seller));
 
 	}
 

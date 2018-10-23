@@ -13,22 +13,35 @@ import controler.dedie.ICTreatment;
  * Servlet implementation class CAppli
  */
 @WebServlet("/CAppli")
-public class CAppli extends HttpServlet {
+public class CAppli2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public CAppli() {
+    public CAppli2() {
         super();
         // TODO Auto-generated constructor stub
     }
 
 	/**
-	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String function = request.getParameter("function");
+		String className = getServletContext().getInitParameter(function);
+		try {
+			ICTreatment controleurDedie = (ICTreatment) Class.forName(className).newInstance();
+			controleurDedie.treatRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String function = request.getParameter("function");
 		String className = getServletContext().getInitParameter(function);
 		try {
