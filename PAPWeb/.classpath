@@ -37,5 +37,6 @@
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/persistence-api-1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/validation-api-1.1.0.Final.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/gf-client.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Desktop/zaazzaezaeazazazzazaerdzfsgrfrgtgrtzrt/javax.ejb.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

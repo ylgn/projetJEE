@@ -15,9 +15,14 @@ import PAP.SESSION.IApplication;
 public class CSubscribe implements ICTreatment {
 	IApplication app;
 	String name,email,pass,city;
+	
 	public CSubscribe() throws NamingException {
 		Context ctx = new InitialContext();
-		app = (IApplication) ctx.lookup("ejb/PAP");
+		Context envCtx = (Context) ctx.lookup("java:comp/env");
+		app = (IApplication) envCtx.lookup("ejb/PAP");
+		
+		//Ca a l'air de fonctionner mais nullPointerException
+		//DataSource ds = (DataSource) envCtx.lookup("ejb/PAP")
 		
 	}
 	
