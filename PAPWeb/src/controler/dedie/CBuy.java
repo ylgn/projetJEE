@@ -10,9 +10,11 @@ public class CBuy implements ICTreatment {
 
 	@Override
 	public void treatRequest(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+			throws ServletException, IOException, Exception {
 		// TODO Auto-generated method stub
-
+		
 	}
+
+
 
 }

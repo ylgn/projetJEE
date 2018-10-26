@@ -10,16 +10,17 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.sun.enterprise.security.jauth.callback.PrivateKeyCallback.Request;
+
 import PAP.SESSION.IApplication;
 
 public class CSubscribe implements ICTreatment {
+	Context ctx;
 	IApplication app;
 	String name,email,pass,city;
 	
 	public CSubscribe() throws NamingException {
-		Context ctx = new InitialContext();
-		Context envCtx = (Context) ctx.lookup("java:comp/env");
-		app = (IApplication) envCtx.lookup("ejb/PAP");
+		
 		
 		//Ca a l'air de fonctionner mais nullPointerException
 		//DataSource ds = (DataSource) envCtx.lookup("ejb/PAP")
@@ -30,10 +31,20 @@ public class CSubscribe implements ICTreatment {
 	public void treatRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		//We get request's attributes 
 		
-		this.name = (String) request.getAttribute("name");
-		this.email = (String) request.getAttribute("email");
-		this.pass = (String) request.getAttribute("pass");
-		this.city = (String) request.getAttribute("city");	
+		try {
+			ctx = new InitialContext();
+			app = (IApplication) ctx.lookup("ejb/PAP");
+			System.out.println(app);
+		} catch (NamingException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+		this.name = (String) request.getParameter("name");
+		this.email = (String) request.getParameter("email");
+		this.pass = (String) request.getParameter("pass");
+		this.city = (String) request.getParameter("city");	
+		
 		//We ask glassfish for suscribe the adherent
 		app.subscribe(name, email, pass, city);
 		//
