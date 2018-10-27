@@ -18,7 +18,7 @@ import PAP.ENTITY.UserPAP;
 import PAP.ENTITY.UserPAPFactory;
 import PAP.EXCEPTION.AlreadyExistsUserException;
 
-@Path("/app")
+@Path("/ressouces")
 @Stateless (mappedName = "ejb/PAP")
 public class Application implements IApplication {
 
@@ -40,7 +40,7 @@ public class Application implements IApplication {
 	@Path("/object")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public void dropObject(String name,String description,double price) {
-		UserPAP seller = new UserPAP();
+		UserPAP seller = new UserPAP("String mail","String city","String name","String pass");
 		em.persist(new ObjectPAPFactory().createObject(name, description, price, seller));
 
 	}
