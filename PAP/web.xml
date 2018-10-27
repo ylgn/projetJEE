@@ -7,7 +7,7 @@
     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
     <init-param>
     <param-name>jersey.config.server.provider.packages</param-name>
-    <param-value>restProduit</param-value>
+    <param-value>rest</param-value>
     </init-param>
     </servlet>
     
