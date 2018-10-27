@@ -3,12 +3,15 @@ package PAP.SESSION;
 import java.util.List;
 
 import javax.ejb.Stateless;
+import javax.jws.WebService;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.core.MediaType;
 
 import PAP.ENTITY.ObjectPAP;
@@ -18,7 +21,8 @@ import PAP.ENTITY.UserPAP;
 import PAP.ENTITY.UserPAPFactory;
 import PAP.EXCEPTION.AlreadyExistsUserException;
 
-@Path("/ressouces")
+
+
 @Stateless (mappedName = "ejb/PAP")
 public class Application implements IApplication {
 
@@ -37,7 +41,7 @@ public class Application implements IApplication {
 
 	@Override
 	@POST
-	@Path("/object")
+	@Path("/objects")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public void dropObject(String name,String description,double price) {
 		UserPAP seller = new UserPAP("String mail","String city","String name","String pass");
@@ -46,7 +50,10 @@ public class Application implements IApplication {
 	}
 
 	@Override
-	public String search(String name, String city) {
+	@GET()
+	@Path("/objects/{city}/{name}")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public String search(@PathParam("city") String name,@PathParam("name")String city) {
 		String searchList="";
 		String query = ("SELECT o FROM ObjectPAP o WHERE o.nameObject = :nameObject and o.cityObject = :cityObject");
 		Query req = em.createQuery (query).setParameter("nameObject", name);
@@ -56,6 +63,21 @@ public class Application implements IApplication {
 			searchList+=objectPAP.toStringue();
 		}
 		return searchList;
+	} 
+	
+	@GET()
+	@Path("/objects")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public String getlistObject() {
+		/*String searchList="";
+		String query = ("SELECT o FROM ObjectPAP");
+		Query req = em.createQuery (query);
+		List<ObjectPAP> listOfAllObject = req.getResultList();
+		for (ObjectPAP objectPAP : listOfAllObject) {
+			searchList+=objectPAP.toStringue();
+		}
+		return searchList;*/
+		return "ok";
 	} 
 		
 

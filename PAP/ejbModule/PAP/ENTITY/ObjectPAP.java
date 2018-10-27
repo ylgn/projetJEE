@@ -6,6 +6,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 
 @Entity
 public class ObjectPAP implements Serializable, IObjectPAP {
@@ -19,9 +20,11 @@ public class ObjectPAP implements Serializable, IObjectPAP {
 	private String descriptionObject;
 	@Column(name="PRICE")
 	private Double priceObject;
+	@JoinColumn(name="OWNER")
 	private UserPAP seller;
 	@Column(name="CITY")
 	private String cityObject;
+	@Column(name="SOLD")
 	private Boolean isSelled = false;
 	private static final long serialVersionUID = 1L;
 	
