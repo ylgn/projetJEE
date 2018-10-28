@@ -56,6 +56,7 @@ public final class subscribeAns_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\n");
       out.write("<html>\n");
       out.write("<head>\n");
+      out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">\n");
       out.write("<meta charset=\"ISO-8859-1\">\n");
       out.write("<title>Insert title here</title>\n");
       out.write("</head>\n");
