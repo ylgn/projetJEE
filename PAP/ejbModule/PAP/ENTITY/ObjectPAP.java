@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 
 @Entity
-public class ObjectPAP implements Serializable, IObjectPAP {
+public class ObjectPAP implements Serializable{
 	
 	@Id
 	@GeneratedValue
@@ -32,94 +32,107 @@ public class ObjectPAP implements Serializable, IObjectPAP {
 		
 	}
 	
-	public ObjectPAP(String name, String description, double price, UserPAP seller) {
+	public ObjectPAP(UserPAP seller, String name, String description, double price, String city) {
 		this.nameObject =name;
 		this.descriptionObject = description;
 		this.priceObject = price;
 		this.seller = seller;
-		this.cityObject = seller.getCity();
+		this.cityObject = city;
 		
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#getNumObject()
 	 */
-	@Override
+
 	public int getNumObject() {
 		return numObject;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#setNumObject(int)
 	 */
-	@Override
+	
 	public void setNumObject(int numObject) {
 		this.numObject = numObject;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#getNameObject()
 	 */
-	@Override
+	
 	public String getNameObject() {
 		return nameObject;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#setNameObject(java.lang.String)
 	 */
-	@Override
+	
 	public void setNameObject(String nameObject) {
 		this.nameObject = nameObject;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#getDescriptionObject()
 	 */
-	@Override
+	
 	public String getDescriptionObject() {
 		return descriptionObject;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#setDescriptionObject(java.lang.String)
 	 */
-	@Override
+	
 	public void setDescriptionObject(String descriptionObject) {
 		this.descriptionObject = descriptionObject;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#getPriceObject()
 	 */
-	@Override
+	
 	public double getPriceObject() {
 		return priceObject;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#setPriceObject(double)
 	 */
-	@Override
+	
 	public void setPriceObject(double priceObject) {
 		this.priceObject = priceObject;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#getSeller()
 	 */
-	@Override
+
 	public UserPAP getSeller() {
 		return seller;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#setSeller(PAP.ENTITY.UserPAP)
 	 */
-	@Override
+	
 	public void setSeller(UserPAP seller) {
 		this.seller = seller;
 	}
-	public String toStringue() {
-		String objectStringed ="";
-		objectStringed+= this.numObject+"/next/";
-		objectStringed+= this.nameObject+"/next/";
-		objectStringed+= this.priceObject+"/next/";
-		objectStringed+= this.cityObject+"/nextLine/";
-		return objectStringed;
-	}
+	
 	public void setSelled() {
 		this.isSelled = true;
+	}
+
+	public String getCityObject() {
+		return cityObject;
+	}
+
+	public void setCityObject(String cityObject) {
+		this.cityObject = cityObject;
+	}
+
+	public Boolean getIsSelled() {
+		return isSelled;
+	}
+
+	public void setIsSelled(Boolean isSelled) {
+		this.isSelled = isSelled;
+	}
+
+	public void setPriceObject(Double priceObject) {
+		this.priceObject = priceObject;
 	}
 
 	

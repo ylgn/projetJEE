@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 @Entity
 
-public class UserPAP implements  Serializable, IUserPAP{
+public class UserPAP implements  Serializable{
 	
 	
 	private static final long serialVersionUID = 1L;
@@ -40,7 +40,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUserPAP#getMail()
 	 */
-	@Override
+	
 	public String getMail() {
 		return this.mail;
 	}
@@ -52,7 +52,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUserPAP#setMail(java.lang.String)
 	 */
-	@Override
+	
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
@@ -63,7 +63,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUserPAP#getName()
 	 */
-	@Override
+	
 	public String getName() {
 		return name;
 	}
@@ -74,7 +74,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUserPAP#setName(java.lang.String)
 	 */
-	@Override
+
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -85,7 +85,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUserPAP#getCity()
 	 */
-	@Override
+	
 	public String getCity() {
 		return city;
 	}
@@ -96,7 +96,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUserPAP#setCity(java.lang.String)
 	 */
-	@Override
+	
 	public void setCity(String city) {
 		this.city = city;
 	}
@@ -106,7 +106,7 @@ public class UserPAP implements  Serializable, IUserPAP{
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUserPAP#getPass()
 	 */
-	@Override
+	
 	public String getPass() {
 		return pass;
 	}
@@ -117,10 +117,17 @@ public class UserPAP implements  Serializable, IUserPAP{
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IUserPAP#setPass(java.lang.String)
 	 */
-	@Override
+
 	public void setPass(String pass) {
 		this.pass = pass;
 	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 	
 	
 

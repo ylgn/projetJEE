@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<server auto-publish-setting="1" glassfish.adminname="admin" glassfish.adminpassword="paris16iut143" glassfish.adminserverportnumber="4848" glassfish.domainpath="/Users/ylgn/Downloads/payara5/glassfish/domains/domain1" glassfish.serverportnumber="8080" hostname="51.68.226.60" id="Payara Server 5 (5.183) [51.68.226.60]" name="Payara Server 5 (5.183) [51.68.226.60]" runtime-id="Payara Server 5 (5.183)" server-type="payara.server" server-type-id="payara.server" start-timeout="240" stop-timeout="240" timestamp="197">
-  <list key="modules" value0="PAP::org.eclipse.jst.jee.server:PAP::jst.ejb::3.2"/>
+<server auto-publish-setting="1" glassfish.adminname="admin" glassfish.adminpassword="paris16iut143" glassfish.adminserverportnumber="4848" glassfish.domainpath="/Users/ylgn/Downloads/payara5/glassfish/domains/domain1" glassfish.serverportnumber="8080" hostname="51.68.226.60" id="Payara Server 5 (5.183) [51.68.226.60]" name="Payara Server 5 (5.183) [51.68.226.60]" runtime-id="Payara Server 5 (5.183)" server-type="payara.server" server-type-id="payara.server" start-timeout="240" stop-timeout="240" timestamp="248">
+  <list key="modules" value0="PAPFunctions::org.eclipse.jst.jee.server:PAPFunctions::jst.web::4.0" value1="PAP::org.eclipse.jst.jee.server:PAP::jst.ejb::3.2"/>
 </server>

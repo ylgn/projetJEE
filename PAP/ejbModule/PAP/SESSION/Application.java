@@ -1,24 +1,16 @@
 package PAP.SESSION;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.ejb.Stateless;
-import javax.jws.WebService;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.core.MediaType;
 
 import PAP.ENTITY.ObjectPAP;
-import PAP.ENTITY.ObjectPAPFactory;
 import PAP.ENTITY.TransactionPAP;
 import PAP.ENTITY.UserPAP;
-import PAP.ENTITY.UserPAPFactory;
 import PAP.EXCEPTION.AlreadyExistsUserException;
 
 
@@ -30,45 +22,49 @@ public class Application implements IApplication {
 	private EntityManager em;
 	
 	@Override
-	public void connect(String mail, String pass) {
-		
-		String searchlist="";
-		String query = "SELECT o FROM UserPAP WHERE o.pass= :passUser AND o.mail= :mail";
-		Query req = em.createQuery(query);
-		req.setParameter("passUser",pass);
-
-	}
-
-	@Override
-	@POST
-	@Path("/objects")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public void dropObject(String name,String description,double price) {
-		UserPAP seller = new UserPAP("String mail","String city","String name","String pass");
-		em.persist(new ObjectPAPFactory().createObject(name, description, price, seller));
-
-	}
-
-	@Override
-	@GET()
-	@Path("/objects/{city}/{name}")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public String search(@PathParam("city") String name,@PathParam("name")String city) {
-		String searchList="";
-		String query = ("SELECT o FROM ObjectPAP o WHERE o.nameObject = :nameObject and o.cityObject = :cityObject");
-		Query req = em.createQuery (query).setParameter("nameObject", name);
-		req.setParameter("cityObject", city);
-		List<ObjectPAP> listOfAllObject = req.getResultList();
-		for (ObjectPAP objectPAP : listOfAllObject) {
-			searchList+=objectPAP.toStringue();
+	public boolean connect(String mail, String pass) {
+		UserPAP customer = em.find(UserPAP.class, mail);
+		if (customer.getPass().equals(pass)) {
+			return true;
 		}
-		return searchList;
-	} 
+		else {
+			return false;
+		}
+	}
+
 	
-	@GET()
-	@Path("/objects")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public String getlistObject() {
+	
+	@Override
+	public void subscribe(String name, String email, String pass, String city) throws AlreadyExistsUserException  {
+		if (IsUserExistByMail(email)) {
+			throw new AlreadyExistsUserException("An user already exists with the mail adress : "+email);
+		}else { 
+		em.persist(new UserPAP(email, city, name, pass));
+		}
+		
+	}
+	
+	@Override
+	public void dropObject(ObjectPAP o) {
+		em.persist(o);
+	}
+	
+	@Override
+	public List<ObjectPAP> search(String name, String city) {
+		List<ObjectPAP> searchedList = new ArrayList<ObjectPAP>();
+		String query = ("SELECT o FROM ObjectPAP o WHERE o.name = :nameObject AND o.city = :cityObject");
+		Query req = em.createQuery (query).setParameter("nameObject", name);
+		req = em.createQuery (query).setParameter("cityObject", city);
+		List<ObjectPAP> list = req.getResultList();
+		for (ObjectPAP objectPAP : list) {
+			searchedList.add(objectPAP);
+		}
+		return searchedList;
+	}
+	
+	
+	
+	public String test() {
 		/*String searchList="";
 		String query = ("SELECT o FROM ObjectPAP");
 		Query req = em.createQuery (query);
@@ -77,7 +73,8 @@ public class Application implements IApplication {
 			searchList+=objectPAP.toStringue();
 		}
 		return searchList;*/
-		return "ok";
+		return "ok Yannis t'as réussi ton API fonctionne, bien joué mais tu ne "
+				+ "sauras jamais developpeur pcq c pour les pd";
 	} 
 		
 
@@ -100,15 +97,7 @@ public class Application implements IApplication {
 
 	}
 	
-	@Override
-	public void subscribe(String name, String email, String pass, String city) throws AlreadyExistsUserException  {
-		if (IsUserExistByMail(email)) {
-			throw new AlreadyExistsUserException("An user already exists with the mail adress : "+email);
-		}else { 
-		em.persist(new UserPAPFactory().createUser(email, city, name, pass));
-		}
-		
-	}
+	// ############################## CHECK METHOD ##################################
 	public Boolean IsUserExistByMail(String mail) {
 		String query = ("SELECT o FROM UserPAP o WHERE o.mail = :adresseEMail");
 		Query req = em.createQuery (query).setParameter("adresseEMail", mail);
@@ -124,6 +113,27 @@ public class Application implements IApplication {
 			}
 		}return null;
 	}
+
+
+
+	@Override
+	public List<ObjectPAP> getlistTest() {
+		// TODO Auto-generated method stub
+		List<ObjectPAP> searchedList = new ArrayList<ObjectPAP>();
+		String query = ("SELECT o FROM ObjectPAP o");
+		Query req = em.createQuery (query);
+		List<ObjectPAP> list = req.getResultList();
+		for (ObjectPAP objectPAP : list) {
+			searchedList.add(objectPAP);
+		}
+		return searchedList;
+	}
+
+
+
+	
+
+	
 	
 		
 
