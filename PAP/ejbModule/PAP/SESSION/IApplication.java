@@ -5,6 +5,7 @@ import java.util.List;
 import javax.ejb.Remote;
 
 import PAP.ENTITY.ObjectPAP;
+import PAP.ENTITY.UserPAP;
 
 @Remote
 public interface IApplication {
@@ -17,4 +18,5 @@ public interface IApplication {
 	//A supprimer pour la prod
 	public String test();
 	public List<ObjectPAP> getlistTest();
+	public UserPAP getUserByMail(String mail);
 }

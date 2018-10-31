@@ -1,7 +1,7 @@
 <%@ page contentType="text/html" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <%
-	Exception erreurDeCreationCompte = (Exception) request.getAttribute("erreur");	
+	Exception e = (Exception) request.getAttribute("erreur");
 	String nomClient = request.getParameter("name");
 	String emailClient = request.getParameter("email");
 	String passClient = request.getParameter("pass");
@@ -346,7 +346,7 @@
 								<h3 class="title">inscription</h3>
 							</div>
 								<p>
-									<% if (erreurDeCreationCompte == null) { %>
+									<% if (e == null) { %>
 										Le compte <span style="color: red;"><%= nomClient %></span> a bien été créé!
 									<%}	else { %>
 										<span style="color: red;"> Erreur, le compte <%= nomClient %> existe déjà.</span>

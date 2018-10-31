@@ -65,16 +65,14 @@ public class Application implements IApplication {
 	
 	
 	public String test() {
-		/*String searchList="";
-		String query = ("SELECT o FROM ObjectPAP");
+		String res = "";
+		String query = ("SELECT o FROM UserPAP o");
 		Query req = em.createQuery (query);
-		List<ObjectPAP> listOfAllObject = req.getResultList();
-		for (ObjectPAP objectPAP : listOfAllObject) {
-			searchList+=objectPAP.toStringue();
+		List<UserPAP> listOfResult = req.getResultList();
+		for (UserPAP p : listOfResult) {
+			res = res+"\n"+p.getMail();
 		}
-		return searchList;*/
-		return "ok Yannis t'as réussi ton API fonctionne, bien joué mais tu ne "
-				+ "sauras jamais developpeur pcq c pour les pd";
+		return res;
 	} 
 		
 
@@ -103,16 +101,7 @@ public class Application implements IApplication {
 		Query req = em.createQuery (query).setParameter("adresseEMail", mail);
 		return !req.getResultList().isEmpty();
 	}
-	public UserPAP getUserByMail(String mail) {
-		String query = ("SELECT o FROM UserPAP o WHERE o.mail = :adresseEMail");
-		Query req = em.createQuery (query).setParameter("adresseEMail", mail);
-		List<UserPAP> listUser = req.getResultList();
-		for (UserPAP userPAP : listUser) {
-			if(userPAP.getMail()==mail) {
-				return userPAP;
-			}
-		}return null;
-	}
+	
 
 
 
@@ -122,11 +111,27 @@ public class Application implements IApplication {
 		List<ObjectPAP> searchedList = new ArrayList<ObjectPAP>();
 		String query = ("SELECT o FROM ObjectPAP o");
 		Query req = em.createQuery (query);
-		List<ObjectPAP> list = req.getResultList();
-		for (ObjectPAP objectPAP : list) {
+		List<ObjectPAP> listOfResult = req.getResultList();
+		for (ObjectPAP objectPAP : listOfResult) {
 			searchedList.add(objectPAP);
 		}
 		return searchedList;
+	}
+
+
+
+	@Override
+	public UserPAP getUserByMail(String mail) {
+		System.err.println("Ok la zone on essaye de pecho "+mail);
+		String query = ("SELECT o FROM UserPAP o");
+		Query req = em.createQuery (query);
+		List<UserPAP> listUser = req.getResultList();
+			for (UserPAP userPAP : listUser) {
+				if(userPAP.getMail().equals(mail)) {
+					System.out.println(userPAP.getMail());
+					return userPAP;
+				}
+			}return null;
 	}
 
 

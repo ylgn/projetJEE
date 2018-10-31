@@ -39,8 +39,8 @@ public class CSubscribe implements ICTreatment {
 			//We ask glassfish to suscribe the adherent
 			app.subscribe(name, email, pass, city);
 		} catch (Exception e1) {
-			request.setAttribute("erreur", e1);
 			e1.printStackTrace();
+			request.setAttribute("erreur", e1);
 		}
 		
 //		this.name = (String) request.getParameter("name");
