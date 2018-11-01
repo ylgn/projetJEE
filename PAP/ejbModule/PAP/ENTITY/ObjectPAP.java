@@ -25,19 +25,20 @@ public class ObjectPAP implements Serializable{
 	@Column(name="CITY")
 	private String cityObject;
 	@Column(name="SOLD")
-	private Boolean isSelled = false;
+	private Boolean isSelled;
 	private static final long serialVersionUID = 1L;
 	
 	public ObjectPAP() {
 		
 	}
 	
-	public ObjectPAP(UserPAP seller, String name, String description, double price, String city) {
+	public ObjectPAP(UserPAP seller,String name, String description, double price, String city) {
 		this.nameObject =name;
 		this.descriptionObject = description;
 		this.priceObject = price;
-		this.seller = seller;
 		this.cityObject = city;
+		this.seller =seller;
+		this.isSelled = false;
 		
 	}
 	/* (non-Javadoc)

@@ -43,16 +43,19 @@ public class resourcesAPI {
 	@Path("objects")
 	@Consumes(MediaType.APPLICATION_JSON)
  	public void addObject(ObjectPAP o) {
+ 	
+ 		
  		try {
 			ctx = new InitialContext();
 			app = (IApplication) ctx.lookup("ejb/PAP");
-			app.dropObject(o);
+			app.dropObject(o.getSeller(), o.getNameObject(), o.getDescriptionObject(), o.getCityObject(), o.getPriceObject());
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
  	}
+ 	
  	@GET
 	@Path("objects/{name}/{city}")
 	@Produces({MediaType.APPLICATION_JSON})
@@ -70,6 +73,7 @@ public class resourcesAPI {
  		
  	}
  	
+ 	/*
  	@GET
 	@Path("objects")
 	@Produces({MediaType.APPLICATION_JSON})
@@ -83,9 +87,9 @@ public class resourcesAPI {
 		}
 		
  		return app.getlistTest();
- 		
+ 	
  	}
  	
- 
+ */
  
 }

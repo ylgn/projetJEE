@@ -1,36 +1,28 @@
 package PAP.MODEL;
 
-import java.io.Serializable;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-
-
-public class ObjectPAP implements Serializable{
+public class ObjectPAP {
 	
 
 	private int numObject;
 	private String nameObject;
 	private String descriptionObject;
 	private Double priceObject;
-	private UserPAP seller;
+	private String ownerMail;
 	private String cityObject;
 	private Boolean isSelled = false;
-	private static final long serialVersionUID = 1L;
+	
 	
 	public ObjectPAP() {
 		
 	}
 	
-	public ObjectPAP(UserPAP seller, String name, String description, double price, String city) {
+	public ObjectPAP(String mail,String name, String description, double price, String city) {
 		this.nameObject =name;
 		this.descriptionObject = description;
 		this.priceObject = price;
-		this.seller = seller;
 		this.cityObject = city;
+		this.ownerMail= mail;
+		
 		
 	}
 	/* (non-Javadoc)
@@ -93,15 +85,15 @@ public class ObjectPAP implements Serializable{
 	 * @see PAP.ENTITY.IObjectPAP#getSeller()
 	 */
 
-	public UserPAP getSeller() {
-		return seller;
+	public String getSeller() {
+		return ownerMail;
 	}
 	/* (non-Javadoc)
 	 * @see PAP.ENTITY.IObjectPAP#setSeller(PAP.ENTITY.UserPAP)
 	 */
 	
-	public void setSeller(UserPAP seller) {
-		this.seller = seller;
+	public void setSeller(String ownerMail) {
+		this.ownerMail = ownerMail;
 	}
 	
 	public void setSelled() {

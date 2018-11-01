@@ -45,8 +45,9 @@ public class Application implements IApplication {
 	}
 	
 	@Override
-	public void dropObject(ObjectPAP o) {
-		em.persist(o);
+	public void dropObject(String mail,String name,String description, String city, double price) {
+		UserPAP p = getUserByMail(mail);
+		em.persist(new ObjectPAP(p,name, description, price, city));
 	}
 	
 	@Override

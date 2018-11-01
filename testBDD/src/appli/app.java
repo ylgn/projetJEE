@@ -38,29 +38,28 @@ public class app {
 			app.subscribe("raymonde","testnounou", "test","Poissy");
 			*/
 			
-			testMan = app.getUserByMail("yannis.le-guen@hotmail.fr");
-			System.out.println(testMan.getMail());
+			//testMan = new UserPAP();
+			//testMan = app.getUserByMail("yannis.le-guen@hotmail.fr");
+					
+			//System.out.println(testMan.getMail());
 			
 			
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	
-		//WebTarget ressource = clientRest.target("http://51.68.226.60:8080/API/rest");
-		//ressource = ressource.path("magasin/produits");
-		//Invocation.Builder httpQuery = ressource.request();
 		
-		/*
+		
+		
 		Client clientRest = ClientBuilder.newClient();
 		WebTarget ressource = clientRest.target("http://51.68.226.60:8080/PAPFunctions/rest");
 		ressource = ressource.path("resources/objects");
 		Invocation.Builder httpQuery = ressource.request();
 		
-		Entity<ObjectPAP> monEntity = Entity.json(new ObjectPAP(testMan, "ok", "ok", 12, "ok"));
+		Entity<ObjectPAP> monEntity = Entity.json(new ObjectPAP("virginie.le-guen@wanadoo.fr", "Vase", "Hauteur 20cm, 2L, Moche mais utile pour des fleurs", 5, "Poissy"));
 		ObjectPAP prodCree = httpQuery.accept(MediaType.APPLICATION_JSON).post(monEntity,ObjectPAP.class);
 		
-		*/
+		
 		
 		
 		

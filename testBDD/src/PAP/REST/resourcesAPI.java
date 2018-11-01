@@ -46,7 +46,7 @@ public class resourcesAPI {
  		try {
 			ctx = new InitialContext();
 			app = (IApplication) ctx.lookup("ejb/PAP");
-			app.dropObject(o);
+			app.dropObject(o.getSeller(), o.getNameObject(), o.getDescriptionObject(), o.getCityObject(), o.getPriceObject());
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
