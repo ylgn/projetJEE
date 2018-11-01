@@ -8,4 +8,9 @@
 		<param-name>subscribe</param-name>
 		<param-value>controler.dedie.CSubscribe</param-value>
 	</context-param>	
+	
+		<context-param>
+		<param-name>connect</param-name>
+		<param-value>controler.dedie.CConnect</param-value>
+	</context-param>
 </web-app>

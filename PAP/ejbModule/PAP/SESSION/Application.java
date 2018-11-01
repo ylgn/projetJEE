@@ -12,6 +12,7 @@ import PAP.ENTITY.ObjectPAP;
 import PAP.ENTITY.TransactionPAP;
 import PAP.ENTITY.UserPAP;
 import PAP.EXCEPTION.AlreadyExistsUserException;
+import PAP.EXCEPTION.DoesntExistException;
 
 
 
@@ -22,13 +23,14 @@ public class Application implements IApplication {
 	private EntityManager em;
 	
 	@Override
-	public boolean connect(String mail, String pass) {
+	public boolean connect(String mail, String pass) throws DoesntExistException {
 		UserPAP customer = em.find(UserPAP.class, mail);
 		if (customer.getPass().equals(pass)) {
 			return true;
 		}
 		else {
-			return false;
+			throw new DoesntExistException("Email ou mot de passe incorrect");
+			
 		}
 	}
 
