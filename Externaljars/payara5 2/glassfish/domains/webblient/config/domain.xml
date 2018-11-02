@@ -44,6 +44,8 @@
     </jdbc-connection-pool>
     <connector-connection-pool resource-adapter-name="jmsra" max-pool-size="250" steady-pool-size="1" name="jms/__defaultConnectionFactory-Connection-Pool" connection-definition-name="javax.jms.ConnectionFactory"></connector-connection-pool>
     <connector-resource pool-name="jms/__defaultConnectionFactory-Connection-Pool" object-type="system-all-req" jndi-name="jms/__defaultConnectionFactory"></connector-resource>
+    <managed-executor-service object-type="system-all" jndi-name="concurrent/__defaultManagedExecutorService"></managed-executor-service>
+    <managed-scheduled-executor-service object-type="system-all" jndi-name="concurrent/__defaultManagedScheduledExecutorService"></managed-scheduled-executor-service>
   </resources>
   <servers>
     <server config-ref="server-config" name="server">
@@ -52,6 +54,8 @@
       <resource-ref ref="jdbc/__default"></resource-ref>
       <resource-ref ref="jdbc/__derby"></resource-ref>
       <resource-ref ref="jms/__defaultConnectionFactory"></resource-ref>
+      <resource-ref ref="concurrent/__defaultManagedExecutorService"></resource-ref>
+      <resource-ref ref="concurrent/__defaultManagedScheduledExecutorService"></resource-ref>
     </server>
   </servers>
   <nodes>
@@ -487,7 +491,7 @@
   <deployment-groups></deployment-groups>
   <clusters></clusters>
   <applications>
-    <application deployment-time="1051" context-root="/PAPWeb" object-type="user" name="PAPWeb" directory-deployed="true" location="${com.sun.aas.instanceRootURI}/eclipseApps/PAPWeb/" time-deployed="1541175976662">
+    <application deployment-time="1275" context-root="/PAPWeb" object-type="user" name="PAPWeb" directory-deployed="true" location="${com.sun.aas.instanceRootURI}/eclipseApps/PAPWeb/" time-deployed="1541176727394">
       <property name="archiveType" value="war"></property>
       <property name="cdiDevModeEnabled" value="false"></property>
       <property name="keepstate" value="true"></property>

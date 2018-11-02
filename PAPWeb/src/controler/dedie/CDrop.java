@@ -42,16 +42,16 @@ public class CDrop implements ICTreatment {
 		this.description = request.getParameter("description");
 		this.price = Double.parseDouble(request.getParameter("price"));
 		HttpSession session = request.getSession();
-		System.out.println(session.getAttribute("connect"));
+		System.out.println(session.getAttribute("connected"));
 		
-		if (session.getAttribute("connect").equals("ok")) {
+		if (session.getAttribute("connected").equals("ok")) {
 			String mail = (String) session.getAttribute("mail");
 			Client clientRest = ClientBuilder.newClient();
 			WebTarget ressource = clientRest.target("http://51.68.226.60:8080/PAPFunctions/rest");
 			ressource = ressource.path("resources/objects");
 			Invocation.Builder httpQuery = ressource.request();
 			
-			Entity<ObjectPAP> monEntity = Entity.json(new ObjectPAP("mail", name, description, price, "Poissy"));
+			Entity<ObjectPAP> monEntity = Entity.json(new ObjectPAP(mail, name, description, price, "Poissy"));
 			ObjectPAP prodCree = httpQuery.accept(MediaType.APPLICATION_JSON).post(monEntity,ObjectPAP.class);
 		}
 		
