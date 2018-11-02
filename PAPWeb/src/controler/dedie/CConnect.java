@@ -35,7 +35,7 @@ public class CConnect implements ICTreatment {
 		System.out.println(pass);
 		HttpSession session = request.getSession();
 		
-		if (session == null) {
+		
 			try {
 				if (app.connect(email, pass)) {
 					session.setAttribute("mail", email);
@@ -49,11 +49,7 @@ public class CConnect implements ICTreatment {
 				request.setAttribute("erreur",e);
 				System.err.println(e);
 			}
-		}else {
-			
-			System.err.println("deja co la zone");
-			System.out.println(session.getAttribute("mail"));
-		}
+		
 
 
 		//

@@ -43,6 +43,7 @@ public class CDrop implements ICTreatment {
 		this.price = Double.parseDouble(request.getParameter("price"));
 		HttpSession session = request.getSession();
 		System.out.println(session.getAttribute("connect"));
+		
 		if (session.getAttribute("connect").equals("ok")) {
 			String mail = (String) session.getAttribute("mail");
 			Client clientRest = ClientBuilder.newClient();
