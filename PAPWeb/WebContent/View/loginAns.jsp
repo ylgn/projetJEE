@@ -71,7 +71,7 @@
 				<div class="pull-left">
 					<!-- Logo -->
 					<div class="header-logo">
-						<a class="logo" href="index.html">
+						<a class="logo" href="./View/index.html">
 							<img src="./style/img/logo.png" alt="">
 						</a>
 					</div>
@@ -80,17 +80,13 @@
 					<!-- Search -->
 					<div class="header-search">
 						<form>
-							<input class="input search-input" type="text" placeholder="Entrez des mots clés">
-							<select class="input search-categories">
-								<option value="0">Villes</option>
-								<option value="1">Paris</option>
-								<option value="1">Marseille</option>
-								<option value="1">Montpellier</option>
-								<option value="1">Toulon</option>
-								<option value="1">Lyon</option>
-								<option value="1">Caen</option>
-							</select>
+							<input class="input search-input" type="text" placeholder="Entrez des mots clés" name="motCle">
+							<input class="input search-categories" type="text" placeholder="Ville" name="city">
+							<div>
+							<input type="hidden" name="function" value ="search" />
 							<button class="search-btn"><i class="fa fa-search"></i></button>
+							</div>
+							
 						</form>
 					</div>
 					<!-- /Search -->
@@ -108,12 +104,12 @@
 							</div>
 							
 							<ul class="custom-menu">
-								<li><a href="login.html"><i class="fa fa-user-o"></i>Se connecter</a></li>
+								<li><a href="./View/login.html"><i class="fa fa-user-o"></i>Se connecter</a></li>
 								<!-- <li><a href="#"><i class="fa fa-heart-o"></i> My Wishlist</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-exchange"></i> Compare</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-check"></i> Checkout</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li> -->
-								<li><a href="subscribe.html"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
+								<li><a href="./View/subscribe.html"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
 							</ul>
 						</li>
 						<!-- /Account -->
@@ -307,7 +303,7 @@
 				<div class="menu-nav">
 					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
 					<ul class="menu-list">
-						<li><a href="#">mettre un objet à vendre</a></li>
+						<li><a href="./View/sell.html">mettre un objet à vendre</a></li>
 					</ul>
 				</div>
 				<!-- menu nav -->
@@ -321,8 +317,8 @@
 	<div id="breadcrumb">
 		<div class="container">
 			<ul class="breadcrumb">
-				<li><a href="index.html">Accueil</a></li>
-				<li class="active">Inscription</li>
+				<li><a href="./View/index.html">Accueil</a></li>
+				<li class="active">Connexion</li>
 			</ul>
 		</div>
 	</div>

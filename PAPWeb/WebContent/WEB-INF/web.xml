@@ -19,4 +19,14 @@
 		<param-name>sell</param-name>
 		<param-value>controler.dedie.CDrop</param-value>
 	</context-param>
+	
+	<context-param>
+		<param-name>search</param-name>
+		<param-value>controler.dedie.CSearch</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>buy</param-name>
+		<param-value>controler.dedie.CBuy</param-value>
+	</context-param>
 </web-app>

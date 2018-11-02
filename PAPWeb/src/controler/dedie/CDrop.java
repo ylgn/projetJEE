@@ -27,6 +27,7 @@ public class CDrop implements ICTreatment {
 	String name,description;
 	double price;
 	HttpSession session;
+	String city;
 	public CDrop() throws NamingException {
 		ctx = new InitialContext();
 		app = (IApplication) ctx.lookup("ejb/PAP");
@@ -40,6 +41,7 @@ public class CDrop implements ICTreatment {
 			throws ServletException, IOException, Exception {
 		this.name = request.getParameter("name");
 		this.description = request.getParameter("description");
+		this.city = request.getParameter("city");
 		this.price = Double.parseDouble(request.getParameter("price"));
 		HttpSession session = request.getSession();
 		System.out.println(session.getAttribute("connected"));
@@ -51,7 +53,7 @@ public class CDrop implements ICTreatment {
 			ressource = ressource.path("resources/objects");
 			Invocation.Builder httpQuery = ressource.request();
 			
-			Entity<ObjectPAP> monEntity = Entity.json(new ObjectPAP(mail, name, description, price, "Poissy"));
+			Entity<ObjectPAP> monEntity = Entity.json(new ObjectPAP(mail, name, description, price, city));
 			ObjectPAP prodCree = httpQuery.accept(MediaType.APPLICATION_JSON).post(monEntity,ObjectPAP.class);
 		}
 		

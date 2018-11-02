@@ -13,20 +13,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
 
 	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="style/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="../style/css/bootstrap.min.css" />
 
 	<!-- Slick -->
-	<link type="text/css" rel="stylesheet" href="style/css/slick.css" />
-	<link type="text/css" rel="stylesheet" href="style/css/slick-theme.css" />
+	<link type="text/css" rel="stylesheet" href="../style/css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="../style/css/slick-theme.css" />
 
 	<!-- nouislider -->
-	<link type="text/css" rel="stylesheet" href="style/css/nouislider.min.css" />
+	<link type="text/css" rel="stylesheet" href="../style/css/nouislider.min.css" />
 
 	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="style/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../style/css/font-awesome.min.css">
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="style/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="../style/css/style.css" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -68,7 +68,7 @@
 					<!-- Logo -->
 					<div class="header-logo">
 						<a class="logo" href="index.html">
-							<img src="style/img/logo.png" alt="">
+							<img src="../style/img/logo.png" alt="">
 						</a>
 					</div>
 					<!-- /Logo -->
@@ -76,17 +76,13 @@
 					<!-- Search -->
 					<div class="header-search">
 						<form>
-							<input class="input search-input" type="text" placeholder="Entrez des mots clés">
-							<select class="input search-categories">
-								<option value="0">Villes</option>
-								<option value="1">Paris</option>
-								<option value="1">Marseille</option>
-								<option value="1">Montpellier</option>
-								<option value="1">Toulon</option>
-								<option value="1">Lyon</option>
-								<option value="1">Caen</option>
-							</select>
+							<input class="input search-input" type="text" placeholder="Entrez des mots clés" name="motCle">
+							<input class="input search-categories" type="text" placeholder="Ville" name="city">
+							<div>
+							<input type="hidden" name="function" value ="search" />
 							<button class="search-btn"><i class="fa fa-search"></i></button>
+							</div>
+							
 						</form>
 					</div>
 					<!-- /Search -->
@@ -342,7 +338,11 @@
 							Pour optimiser la vente de votre produit, pensez à laisser une description de votre objet claire et adaptée.
 							
 							<div class="form-group col-md-12">
-								<input class="input" type="text" name="name" placeholder="Que vendez vous?" required >
+								<input class="input" type="text" name="name" placeholder="Que vendez-vous?" required >
+							</div>
+							
+							<div class="form-group col-md-12">
+								<input class="input" type="text" name="city" placeholder="Où voudez-vous ?" required >
 							</div>
 							
 							<div class="form-group col-md-3">
@@ -404,7 +404,7 @@
 						<!-- footer logo -->
 						<div class="footer-logo">
 							<a class="logo" href="#">
-		            <img src="style/img/logo.png" alt="">
+		            <img src="../style/img/logo.png" alt="">
 		          </a>
 						</div>
 						<!-- /footer logo -->
@@ -474,12 +474,12 @@
 	<!-- /FOOTER -->
 
 	<!-- jQuery Plugins -->
-	<script src="style/js/jquery.min.js"></script>
-	<script src="style/js/bootstrap.min.js"></script>
-	<script src="style/js/slick.min.js"></script>
-	<script src="style/js/nouislider.min.js"></script>
-	<script src="style/js/jquery.zoom.min.js"></script>
-	<script src="style/js/main.js"></script>
+	<script src="../../style/js/jquery.min.js"></script>
+	<script src="../style/js/bootstrap.min.js"></script>
+	<script src="../style/js/slick.min.js"></script>
+	<script src="../style/js/nouislider.min.js"></script>
+	<script src="../style/js/jquery.zoom.min.js"></script>
+	<script src="../style/js/main.js"></script>
 
 </body>
 
