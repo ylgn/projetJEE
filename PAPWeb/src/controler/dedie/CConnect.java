@@ -9,7 +9,7 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import javax.servlet.http.HttpSession;
 
 import PAP.SESSION.IApplication;
 
@@ -31,14 +31,21 @@ public class CConnect implements ICTreatment {
 
 		String email = request.getParameter("email");
 		String pass = request.getParameter("pass");
-
+		HttpSession session = request.getSession(false);
 		
-		try {		
-			//We ask glassfish to connect the client
-			app.connect(email, pass);
-		} catch (Exception e1) {
-			request.setAttribute("erreur", e1);
-			e1.printStackTrace();
+		if (session == null) {
+			try {
+				if (app.connect(email, pass)) {
+					session.setAttribute("mail", email);
+					session.setAttribute("connect", true);
+				}
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				request.setAttribute("erreur",e);
+			}
+		}else {
+			request.setAttribute("connected",false);
 		}
 
 

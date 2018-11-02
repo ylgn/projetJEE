@@ -1,11 +1,15 @@
+<%@ page contentType="text/html" pageEncoding="utf-8"%>
 <!DOCTYPE html>
-<html lang="en">
-
+<%
+	Exception erreurDeConnexion = (Exception) request.getAttribute("erreur");	
+	String emailClient = request.getParameter("email");
+	String passClient = request.getParameter("pass");
+%>
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>PAP</title>
 
@@ -13,20 +17,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
 
 	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="../style/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/bootstrap.min.css" />
 
 	<!-- Slick -->
-	<link type="text/css" rel="stylesheet" href="../style/css/slick.css" />
-	<link type="text/css" rel="stylesheet" href="../style/css/slick-theme.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/slick-theme.css" />
 
 	<!-- nouislider -->
-	<link type="text/css" rel="stylesheet" href="../style/css/nouislider.min.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/nouislider.min.css" />
 
 	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="../style/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./style/css/font-awesome.min.css">
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="../style/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/style.css" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -68,7 +72,7 @@
 					<!-- Logo -->
 					<div class="header-logo">
 						<a class="logo" href="index.html">
-							<img src="../style/img/logo.png" alt="">
+							<img src="./style/img/logo.png" alt="">
 						</a>
 					</div>
 					<!-- /Logo -->
@@ -318,7 +322,7 @@
 		<div class="container">
 			<ul class="breadcrumb">
 				<li><a href="index.html">Accueil</a></li>
-				<li class="active">Connexion</li>
+				<li class="active">Inscription</li>
 			</ul>
 		</div>
 	</div>
@@ -330,26 +334,22 @@
 		<div class="container">
 			<!-- row -->
 			<div class="row">
-			<form id="form" action="../CAppli" method="post">
+			
 					<div class="col-md-6 offset-md-3">
 						<div class="billing-details">
 							
 							<div class="section-title">
 								<h3 class="title">connexion</h3>
 							</div>
-							<div class="form-group">
-								<input class="input" type="email" name="email" placeholder="Email">
-							</div>
-							<div class="form-group">
-								<input class="input" type="password" name="pass" placeholder="Mot de passe">
-							</div>
-							<p>Pas de compte ?<a href="subscribe.html"> Inscrivez-vous</a></p>
-
+								<p>
+									<% if (erreurDeConnexion == null) { %>
+										Bienvenue, <span style="color: red;"><%= emailClient %></span>!
+									<%}	else { %>
+										Erreur, l'adresse <%= emailClient %> n'est associée à aucun compte ou le mot de passe est incorrect.</span>
+									<%} %>
+								</p>
+							
 						</div>
-							<div class="pull-left">
-							<input type="hidden" name="function" value ="connect" />
-								<button class="primary-btn">Valider</button>
-							</div>
 						</div>
 
 					<!-- </div> -->
@@ -373,7 +373,7 @@
 						<!-- footer logo -->
 						<div class="footer-logo">
 							<a class="logo" href="#">
-		            <img src="../style/img/logo.png" alt="">
+		            <img src="./style/img/logo.png" alt="">
 		          </a>
 						</div>
 						<!-- /footer logo -->
@@ -443,12 +443,12 @@
 	<!-- /FOOTER -->
 
 	<!-- jQuery Plugins -->
-	<script src="../style/js/jquery.min.js"></script>
-	<script src="../style/js/bootstrap.min.js"></script>
-	<script src="../style/js/slick.min.js"></script>
-	<script src="../style/js/nouislider.min.js"></script>
-	<script src="../style/js/jquery.zoom.min.js"></script>
-	<script src="../style/js/main.js"></script>
+	<script src="./style/js/jquery.min.js"></script>
+	<script src="./style/js/bootstrap.min.js"></script>
+	<script src="./style/js/slick.min.js"></script>
+	<script src="./style/js/nouislider.min.js"></script>
+	<script src="./style/js/jquery.zoom.min.js"></script>
+	<script src="./style/js/main.js"></script>
 
 </body>
 
