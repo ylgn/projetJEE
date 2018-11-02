@@ -2,8 +2,6 @@ package PAP.SESSION;
 
 import java.util.List;
 
-import javax.ejb.Remote;
-
 import PAP.MODEL.ObjectPAP;
 import PAP.MODEL.UserPAP;
 

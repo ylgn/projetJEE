@@ -24,7 +24,7 @@ public class Application implements IApplication {
 	
 	@Override
 	public boolean connect(String mail, String pass) throws DoesntExistException {
-		UserPAP customer = em.find(UserPAP.class, mail);
+		UserPAP customer = getUserByMail(mail);
 		if (customer.getPass().equals(pass)) {
 			return true;
 		}

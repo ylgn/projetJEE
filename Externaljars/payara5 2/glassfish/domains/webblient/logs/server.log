@@ -3902,3 +3902,2087 @@ Caused by: javax.naming.NameNotFoundException: PAP not found
 [2018-11-02T01:09:07.773+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541117347773] [levelValue: 900] [[
   [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 31645 ms]]
 
+[2018-11-02T01:29:02.365+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541118542365] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 730580 ms]]
+
+[2018-11-02T01:29:02.366+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541118542366] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 729583 ms]]
+
+[2018-11-02T01:29:02.366+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=408 _ThreadName=hz._hzInstance_1_development.cached.thread-3] [timeMillis: 1541118542366] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 729592 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T03:29:38.366+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541125778366] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 7198282 ms]]
+
+[2018-11-02T03:29:39.196+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=367 _ThreadName=hz._hzInstance_1_development.cached.thread-9] [timeMillis: 1541125779196] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 7197124 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T03:29:44.210+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541125784210] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 7197126 ms]]
+
+[2018-11-02T04:16:51.366+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541128611366] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 2822161 ms]]
+
+[2018-11-02T04:16:51.367+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=408 _ThreadName=hz._hzInstance_1_development.cached.thread-3] [timeMillis: 1541128611367] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 2822168 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T04:17:00.567+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541128620567] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 2821357 ms]]
+
+[2018-11-02T06:17:04.807+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541135824807] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 7202012 ms]]
+
+[2018-11-02T06:17:04.991+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=415 _ThreadName=hz._hzInstance_1_development.cached.thread-10] [timeMillis: 1541135824991] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 7199185 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T06:17:05.059+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541135825059] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 7189492 ms]]
+
+[2018-11-02T08:17:13.699+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=421 _ThreadName=hz._hzInstance_1_development.cached.thread-4] [timeMillis: 1541143033699] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 7199346 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T08:17:13.650+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541143033650] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 7202327 ms]]
+
+[2018-11-02T08:17:13.755+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541143033755] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 7193696 ms]]
+
+[2018-11-02T09:40:26.480+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541148026480] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 4978957 ms]]
+
+[2018-11-02T09:40:26.552+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=421 _ThreadName=hz._hzInstance_1_development.cached.thread-4] [timeMillis: 1541148026552] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 4978968 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T09:40:28.934+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541148028934] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 4971423 ms]]
+
+[2018-11-02T10:08:26.727+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541149706727] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 1642710 ms]]
+
+[2018-11-02T10:08:26.753+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=367 _ThreadName=hz._hzInstance_1_development.cached.thread-9] [timeMillis: 1541149706753] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 1642788 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T10:08:32.265+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541149712265] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 1638328 ms]]
+
+[2018-11-02T10:47:13.092+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=419 _ThreadName=hz._hzInstance_1_development.cached.thread-13] [timeMillis: 1541152033092] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 2285654 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T10:47:13.042+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541152033042] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 2287494 ms]]
+
+[2018-11-02T10:47:17.216+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541152037216] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 2279955 ms]]
+
+[2018-11-02T10:48:04.529+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541152084529] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 30309 ms]]
+
+[2018-11-02T10:48:05.685+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=71 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541152085685] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 18466 ms]]
+
+[2018-11-02T10:52:32.439+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=139 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541152352439] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@1275993e]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: a86d9d6 Created: 2 nov. 2018 00:52:28]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T10:52:33.611+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=139 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541152353611] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T10:52:33.694+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=139 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541152353694] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 1 304 milliseconds.]]
+
+[2018-11-02T10:54:34.704+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541152474704] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T11:09:31.420+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=45 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541153371420] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T11:09:31.496+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=45 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541153371496] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 224 milliseconds.]]
+
+[2018-11-02T11:09:55.168+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=35 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541153395168] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T11:14:37.695+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=128 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541153677695] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T11:14:37.731+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=128 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541153677731] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 142 milliseconds.]]
+
+[2018-11-02T11:14:44.169+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=35 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541153684169] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T11:17:16.417+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=175 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541153836417] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T11:17:16.445+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=175 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541153836445] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 184 milliseconds.]]
+
+[2018-11-02T11:17:36.434+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541153856434] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T11:27:51.621+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=139 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541154471621] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@1275993e]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 475ddf7d Created: 2 nov. 2018 11:17:16]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T11:28:00.114+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=173 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541154480114] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T11:28:00.156+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=173 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541154480156] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 166 milliseconds.]]
+
+[2018-11-02T11:28:02.884+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=559 _ThreadName=Thread-49] [timeMillis: 1541154482884] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2018-11-02T11:28:02.894+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=559 _ThreadName=Thread-49] [timeMillis: 1541154482894] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2018-11-02T11:28:02.905+0100] [Payara 5.183] [INFOS] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=559 _ThreadName=Thread-49] [timeMillis: 1541154482905] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2018-11-02T11:28:02.906+0100] [Payara 5.183] [INFOS] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=559 _ThreadName=Thread-49] [timeMillis: 1541154482906] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2018-11-02T11:28:02.974+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=563 _ThreadName=RunLevelControllerThread-1541154482927] [timeMillis: 1541154482974] [levelValue: 800] [[
+  Hazelcast Instance Unbound from JNDI at payara/Hazelcast]]
+
+[2018-11-02T11:28:02.974+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=563 _ThreadName=RunLevelControllerThread-1541154482927] [timeMillis: 1541154482974] [levelValue: 800] [[
+  JSR107 Caching Provider Unbound from JNDI at payara/CachingProvider]]
+
+[2018-11-02T11:28:02.974+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=563 _ThreadName=RunLevelControllerThread-1541154482927] [timeMillis: 1541154482974] [levelValue: 800] [[
+  JSR107 Cache Manager Unbound from JNDI at payara/CacheManager]]
+
+[2018-11-02T11:28:03.024+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=563 _ThreadName=RunLevelControllerThread-1541154482927] [timeMillis: 1541154483024] [levelValue: 800] [[
+  Shutdown Hazelcast]]
+
+[2018-11-02T11:28:03.077+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=564 _ThreadName=RunLevelControllerThread-1541154482927] [timeMillis: 1541154483077] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+
+[2018-11-02T11:28:14.897+0100] [Payara 5.183] [INFOS] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154494897] [levelValue: 800] [[
+  Running Payara Version: Payara Server  5.183 #badassfish (build 380)]]
+
+[2018-11-02T11:28:14.901+0100] [Payara 5.183] [INFOS] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154494901] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2018-11-02T11:28:15.714+0100] [Payara 5.183] [INFOS] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1541154494714] [timeMillis: 1541154495714] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2018-11-02T11:28:15.926+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541154494714] [timeMillis: 1541154495926] [levelValue: 800] [[
+  Network Listener http-listener-1 started in: 18ms - bound to [/0.0.0.0:61826]]]
+
+[2018-11-02T11:28:16.044+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541154494714] [timeMillis: 1541154496044] [levelValue: 800] [[
+  Network Listener http-listener-2 started in: 6ms - bound to [/0.0.0.0:61829]]]
+
+[2018-11-02T11:28:16.051+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541154494714] [timeMillis: 1541154496051] [levelValue: 800] [[
+  Network Listener admin-listener started in: 1ms - bound to [/0.0.0.0:61825]]]
+
+[2018-11-02T11:28:16.064+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541154494714] [timeMillis: 1541154496064] [levelValue: 800] [[
+  Grizzly 2.4.3 started in: 708ms - bound to [http-listener-1:61826, http-listener-2:61829, admin-listener:61825]]]
+
+[2018-11-02T11:28:16.144+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1541154494714] [timeMillis: 1541154496144] [levelValue: 800] [[
+  Network Listener iiop-service started in: 1ms - bound to [/0.0.0.0:61828]]]
+
+[2018-11-02T11:28:16.881+0100] [Payara 5.183] [INFOS] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154496881] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2018-11-02T11:28:16.882+0100] [Payara 5.183] [INFOS] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154496882] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2018-11-02T11:28:16.906+0100] [Payara 5.183] [INFOS] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154496906] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2018-11-02T11:28:17.007+0100] [Payara 5.183] [INFOS] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154497007] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2018-11-02T11:28:17.296+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154497296] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:61826]]
+
+[2018-11-02T11:28:17.304+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154497304] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:61829]]
+
+[2018-11-02T11:28:17.306+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154497306] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:61825]]
+
+[2018-11-02T11:28:17.379+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154497379] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2018-11-02T11:28:17.381+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154497381] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2018-11-02T11:28:17.594+0100] [Payara 5.183] [INFOS] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154497594] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2018-11-02T11:28:17.595+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154497595] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2018-11-02T11:28:19.492+0100] [Payara 5.183] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154499492] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.12.Final]]
+
+[2018-11-02T11:28:21.000+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154501000] [levelValue: 800] [[
+  Loading application PAPWeb done in 5 328 ms]]
+
+[2018-11-02T11:28:24.588+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154504588] [levelValue: 800] [[
+  Hazelcast Instance Bound to JNDI at payara/Hazelcast]]
+
+[2018-11-02T11:28:24.588+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154504588] [levelValue: 800] [[
+  JSR107 Caching Provider Bound to JNDI at payara/CachingProvider]]
+
+[2018-11-02T11:28:24.589+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154504589] [levelValue: 800] [[
+  JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager]]
+
+[2018-11-02T11:28:24.634+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541154494707] [timeMillis: 1541154504634] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T11:28:24.830+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.cluster.PayaraCluster] [tid: _ThreadID=94 _ThreadName=Executor-Service-1] [timeMillis: 1541154504830] [levelValue: 800] [[
+  Data Grid Status 
+Payara Data Grid State: DG Version: 35 DG Size: 1
+Instances: {
+Address: /192.168.1.42:4900 UUID: 7fbf162b-7215-42fa-935e-be076447ee69 Lite: false This: true Name: server Group: server-config
+}]]
+
+[2018-11-02T11:28:24.832+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1541154504832] [levelValue: 800] [[
+  Payara Server  5.183 #badassfish (380) startup time : Felix (3 602ms), startup services(10 131ms), total(13 733ms)]]
+
+[2018-11-02T11:28:24.835+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.notification.NotificationService] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1541154504835] [levelValue: 800] [[
+  Payara Notification Service bootstrapped with configuration: NotificationExecutionOptions{enabled=true, notifierConfigurationExecutionOptionsList={LOG=LogNotifierConfigurationExecutionOptions{useSeparateLogFile=false} NotifierConfigurationExecutionOptions{notifierType=LOG, enabled=true, noisy=true}}}]]
+
+[2018-11-02T11:28:25.360+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541154494714] [timeMillis: 1541154505360] [levelValue: 800] [[
+  Network Listener JMS_PROXY_default_JMS_host started in: 1ms - bound to [/0.0.0.0:61827]]]
+
+[2018-11-02T11:28:25.679+0100] [Payara 5.183] [INFOS] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=111 _ThreadName=Thread-15] [timeMillis: 1541154505679] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://0.0.0.0:61832/jndi/rmi://0.0.0.0:61832/jmxrmi]]
+
+[2018-11-02T11:29:21.473+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541154561473] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T11:29:41.401+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.resource.corba.org.glassfish.enterprise.iiop.api] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541154581401] [levelValue: 800] [[
+  GlassFishORBFactory service initialized.]]
+
+[2018-11-02T11:29:43.598+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541154583598] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId=[61828]]]
+
+[2018-11-02T11:30:39.657+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541154639657] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T11:32:42.643+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=154 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541154762643] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@6f7b8212]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 14368531 Created: 2 nov. 2018 11:28:20]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T11:32:46.665+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541154766665] [levelValue: 1000] [[
+  enterprise.deployment.backend.invalidDescriptorFailure]]
+
+[2018-11-02T11:32:46.666+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541154766666] [levelValue: 1000] [[
+  enterprise.deployment.backend.saxParserError]]
+
+[2018-11-02T11:32:46.666+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.system.core] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541154766666] [levelValue: 1000] [[
+  Exception while deploying the app [PAPWeb]]]
+
+[2018-11-02T11:32:46.667+0100] [Payara 5.183] [GRAVE] [NCLS-CORE-00026] [javax.enterprise.system.core] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541154766667] [levelValue: 1000] [[
+  Exception during lifecycle processing
+java.io.IOException: org.xml.sax.SAXParseException; lineNumber: 10; columnNumber: 15; Deployment descriptor file WEB-INF/web.xml in archive [PAPWeb].  cvc-complex-type.2.4.d : Contenu non valide trouvé à partir de l'élément 'param-name'. Aucun élément enfant n'est attendu à cet endroit.
+	at org.glassfish.javaee.core.deployment.DolProvider.processDOL(DolProvider.java:207)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:223)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:91)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.loadDeployer(ApplicationLifecycle.java:933)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.setupContainerInfos(ApplicationLifecycle.java:873)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.prepare(ApplicationLifecycle.java:383)
+	at org.glassfish.deployment.admin.DeployCommand.execute(DeployCommand.java:540)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:549)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2$1.run(CommandRunnerImpl.java:545)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$2.execute(CommandRunnerImpl.java:544)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:575)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$3.run(CommandRunnerImpl.java:567)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:360)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:566)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.doCommand(CommandRunnerImpl.java:1475)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl.access$1300(CommandRunnerImpl.java:111)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1857)
+	at com.sun.enterprise.v3.admin.CommandRunnerImpl$ExecutionContext.execute(CommandRunnerImpl.java:1733)
+	at com.sun.enterprise.v3.admin.AdminAdapter.doCommand(AdminAdapter.java:564)
+	at com.sun.enterprise.v3.admin.AdminAdapter.onMissingResource(AdminAdapter.java:251)
+	at org.glassfish.grizzly.http.server.StaticHttpHandlerBase.service(StaticHttpHandlerBase.java:166)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 10; columnNumber: 15; Deployment descriptor file WEB-INF/web.xml in archive [PAPWeb].  cvc-complex-type.2.4.d : Contenu non valide trouvé à partir de l'élément 'param-name'. Aucun élément enfant n'est attendu à cet endroit.
+	at com.sun.enterprise.deployment.io.DeploymentDescriptorFile.read(DeploymentDescriptorFile.java:331)
+	at com.sun.enterprise.deployment.io.DeploymentDescriptorFile.read(DeploymentDescriptorFile.java:248)
+	at com.sun.enterprise.deployment.archivist.Archivist.readStandardDeploymentDescriptor(Archivist.java:677)
+	at com.sun.enterprise.deployment.archivist.Archivist.readDeploymentDescriptors(Archivist.java:389)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:269)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:278)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:239)
+	at com.sun.enterprise.deployment.archivist.ApplicationFactory.openArchive(ApplicationFactory.java:161)
+	at org.glassfish.javaee.core.deployment.DolProvider.processDOL(DolProvider.java:199)
+	... 42 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 10; columnNumber: 15; cvc-complex-type.2.4.d : Contenu non valide trouvé à partir de l'élément 'param-name'. Aucun élément enfant n'est attendu à cet endroit.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3231)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1795)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:741)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at com.sun.enterprise.deployment.io.DeploymentDescriptorFile.read(DeploymentDescriptorFile.java:321)
+	... 50 more
+]]
+
+[2018-11-02T11:44:18.611+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=157 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541155458611] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T11:44:18.802+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=157 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541155458802] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 389 milliseconds.]]
+
+[2018-11-02T11:44:37.201+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541155477201] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T11:59:29.457+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541156369457] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 278921 ms]]
+
+[2018-11-02T11:59:30.425+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=190 _ThreadName=hz._hzInstance_1_development.cached.thread-6] [timeMillis: 1541156370425] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 277918 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T11:59:30.435+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541156370435] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 277921 ms]]
+
+[2018-11-02T12:02:51.880+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=44 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541156571880] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T12:02:52.019+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=44 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541156572019] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 340 milliseconds.]]
+
+[2018-11-02T12:03:08.816+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541156588816] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T12:07:06.960+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541156826960] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T12:07:06.997+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541156826997] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 230 milliseconds.]]
+
+[2018-11-02T12:07:39.912+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541156859912] [levelValue: 1000] [[
+  java.lang.NullPointerException
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T12:08:50.220+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541156930220] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T12:08:50.325+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541156930325] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 678 milliseconds.]]
+
+[2018-11-02T12:10:19.709+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541157019709] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T12:10:19.731+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541157019731] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 474 milliseconds.]]
+
+[2018-11-02T12:11:23.406+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541157083406] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T12:11:23.425+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541157083425] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 155 milliseconds.]]
+
+[2018-11-02T12:11:52.833+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541157112833] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controlerdedie.CSubscribe
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T12:12:11.905+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541157131905] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controlerdedie.CSubscribe
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T12:15:05.330+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541157305330] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T12:15:05.355+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541157305355] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 241 milliseconds.]]
+
+[2018-11-02T12:15:50.106+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541157350106] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T12:18:37.450+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541157517450] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 111136 ms]]
+
+[2018-11-02T12:18:40.569+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=268 _ThreadName=hz._hzInstance_1_development.cached.thread-5] [timeMillis: 1541157520569] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 110271 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T12:18:50.581+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541157530581] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 110267 ms]]
+
+[2018-11-02T12:18:54.396+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541157534396] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T12:24:41.212+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541157881212] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@6f7b8212]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 69f17a3b Created: 2 nov. 2018 12:15:05]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T12:24:46.741+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=154 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541157886741] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T12:24:46.843+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=154 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541157886843] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 281 milliseconds.]]
+
+[2018-11-02T12:24:56.164+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541157896164] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T12:38:51.458+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541158731458] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 754873 ms]]
+
+[2018-11-02T12:38:54.889+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=190 _ThreadName=hz._hzInstance_1_development.cached.thread-6] [timeMillis: 1541158734889] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 754308 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T12:38:54.897+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541158734897] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 754313 ms]]
+
+[2018-11-02T13:56:29.457+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541163389457] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 4619557 ms]]
+
+[2018-11-02T13:56:29.461+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=364 _ThreadName=hz._hzInstance_1_development.cached.thread-5] [timeMillis: 1541163389461] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 4619573 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T13:56:38.982+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541163398982] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 4619083 ms]]
+
+[2018-11-02T13:58:04.820+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=157 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541163484820] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T13:58:04.852+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=157 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541163484852] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 252 milliseconds.]]
+
+[2018-11-02T13:58:14.059+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541163494059] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T14:00:14.050+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=157 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541163614050] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T14:00:14.071+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=157 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541163614071] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 498 milliseconds.]]
+
+[2018-11-02T14:00:26.617+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541163626617] [levelValue: 1000] [[
+  java.lang.NullPointerException
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T14:02:02.871+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541163722871] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T14:02:02.897+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541163722897] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 767 milliseconds.]]
+
+[2018-11-02T14:02:13.671+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541163733671] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T14:03:04.505+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=154 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541163784505] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T14:03:04.597+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=154 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541163784597] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 225 milliseconds.]]
+
+[2018-11-02T14:03:12.196+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541163792196] [levelValue: 1000] [[
+  java.lang.ClassNotFoundException: controler.dedie.CConnect
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1659)
+	at org.glassfish.web.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1505)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at controler.CAppli.service(CAppli.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T14:04:13.884+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541163853884] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T14:04:13.902+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541163853902] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 150 milliseconds.]]
+
+[2018-11-02T14:04:22.191+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541163862191] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T14:04:41.016+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541163881016] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T14:07:21.663+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=154 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541164041663] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T14:07:21.688+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=154 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541164041688] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 164 milliseconds.]]
+
+[2018-11-02T14:07:34.964+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541164054964] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T14:07:34.964+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541164054964] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T14:08:54.158+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=155 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541164134158] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T14:08:54.181+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=155 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541164134181] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 144 milliseconds.]]
+
+[2018-11-02T14:09:14.871+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541164154871] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T14:09:14.872+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541164154872] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T14:09:16.874+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541164156874] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy484.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: You have provided an instance of an incorrect PK class for this find operation.  Class expected : class java.lang.Integer, Class received : class java.lang.String.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.findInternal(EntityManagerImpl.java:901)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:825)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:691)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.find(EntityManagerWrapper.java:342)
+	at PAP.SESSION.Application.connect(Application.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-02T14:09:16.875+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541164156875] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy484.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: You have provided an instance of an incorrect PK class for this find operation.  Class expected : class java.lang.Integer, Class received : class java.lang.String.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.findInternal(EntityManagerImpl.java:901)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:825)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:691)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.find(EntityManagerWrapper.java:342)
+	at PAP.SESSION.Application.connect(Application.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-02T14:09:59.056+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541164199056] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T14:09:59.057+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541164199057] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T14:09:59.268+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541164199268] [levelValue: 1000] [[
+  fonctionne pas la zone]]
+
+[2018-11-02T14:10:34.473+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541164234473] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T14:10:34.473+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541164234473] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T14:10:35.552+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541164235552] [levelValue: 1000] [[
+  fonctionne pas la zone]]
+
+[2018-11-02T14:10:40.270+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541164240270] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T14:10:40.277+0100] [Payara 5.183] [AVERTISSEMENT] [] [javax.enterprise.web] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541164240277] [levelValue: 900] [[
+  StandardWrapperValve[controler.CAppli]: Servlet.service() for servlet controler.CAppli threw exception
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
+	at org.apache.catalina.core.ApplicationContext.getInitParameter(ApplicationContext.java:256)
+	at org.apache.catalina.core.ApplicationContextFacade.getInitParameter(ApplicationContextFacade.java:426)
+	at controler.CAppli.service(CAppli.java:37)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T14:11:02.731+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541164262731] [levelValue: 800] [[
+  sell]]
+
+[2018-11-02T14:11:02.732+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541164262732] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-02T14:11:04.312+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541164264312] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T14:11:04.313+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541164264313] [levelValue: 1000] [[
+  java.lang.NullPointerException
+	at controler.dedie.CDrop.treatRequest(CDrop.java:39)
+	at controler.CAppli.service(CAppli.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T14:34:19.471+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541165659471] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 1316527 ms]]
+
+[2018-11-02T14:34:19.472+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541165659472] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 1315529 ms]]
+
+[2018-11-02T14:34:19.483+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=522 _ThreadName=hz._hzInstance_1_development.cached.thread-1] [timeMillis: 1541165659483] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 1315551 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T14:35:45.466+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541165745466] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 48331 ms]]
+
+[2018-11-02T14:35:46.192+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=343 _ThreadName=hz._hzInstance_1_development.cached.thread-3] [timeMillis: 1541165746192] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 47063 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T14:35:51.203+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541165751203] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 47069 ms]]
+
+[2018-11-02T14:39:40.552+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541165980552] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@6f7b8212]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 5aca5194 Created: 2 nov. 2018 14:08:54]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T14:39:45.297+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=157 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541165985297] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T14:39:45.386+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=157 _ThreadName=admin-thread-pool::admin-listener(6)] [timeMillis: 1541165985386] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 193 milliseconds.]]
+
+[2018-11-02T14:39:59.256+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541165999256] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T14:39:59.256+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541165999256] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T14:39:59.646+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541165999646] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy484.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: You have provided an instance of an incorrect PK class for this find operation.  Class expected : class java.lang.Integer, Class received : class java.lang.String.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.findInternal(EntityManagerImpl.java:901)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:825)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:691)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.find(EntityManagerWrapper.java:342)
+	at PAP.SESSION.Application.connect(Application.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-02T14:39:59.647+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541165999647] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy484.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: You have provided an instance of an incorrect PK class for this find operation.  Class expected : class java.lang.Integer, Class received : class java.lang.String.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.findInternal(EntityManagerImpl.java:901)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:825)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:691)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.find(EntityManagerWrapper.java:342)
+	at PAP.SESSION.Application.connect(Application.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-02T14:40:07.209+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541166007209] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T14:40:07.209+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541166007209] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T14:40:08.792+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541166008792] [levelValue: 1000] [[
+  fonctionne pas la zone]]
+
+[2018-11-02T14:40:29.797+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541166029797] [levelValue: 800] [[
+  sell]]
+
+[2018-11-02T14:40:29.797+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541166029797] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-02T14:40:30.044+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541166030044] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T14:40:30.044+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541166030044] [levelValue: 1000] [[
+  java.lang.NullPointerException
+	at controler.dedie.CDrop.treatRequest(CDrop.java:47)
+	at controler.CAppli.service(CAppli.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T15:25:23.474+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541168723474] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 2640740 ms]]
+
+[2018-11-02T15:25:26.454+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=529 _ThreadName=hz._hzInstance_1_development.cached.thread-8] [timeMillis: 1541168726454] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 2639730 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T15:25:36.458+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541168736458] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 2639725 ms]]
+
+[2018-11-02T15:26:15.475+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541168775475] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 14019 ms]]
+
+[2018-11-02T15:26:19.485+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541168779485] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 13027 ms]]
+
+[2018-11-02T15:57:39.475+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541170659475] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 1845989 ms]]
+
+[2018-11-02T15:57:39.484+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=529 _ThreadName=hz._hzInstance_1_development.cached.thread-8] [timeMillis: 1541170659484] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 1845002 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T15:57:49.498+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541170669498] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 1845015 ms]]
+
+[2018-11-02T16:43:38.477+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541173418477] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 2720982 ms]]
+
+[2018-11-02T16:43:39.557+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=343 _ThreadName=hz._hzInstance_1_development.cached.thread-3] [timeMillis: 1541173419557] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 2720068 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-02T16:43:39.566+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=77 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541173419566] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 2720073 ms]]
+
+[2018-11-02T16:45:02.261+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541173502261] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T16:45:02.263+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541173502263] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T16:45:02.860+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541173502860] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy484.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: You have provided an instance of an incorrect PK class for this find operation.  Class expected : class java.lang.Integer, Class received : class java.lang.String.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.findInternal(EntityManagerImpl.java:901)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:825)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:691)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.find(EntityManagerWrapper.java:342)
+	at PAP.SESSION.Application.connect(Application.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-02T16:45:02.863+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541173502863] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy484.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: You have provided an instance of an incorrect PK class for this find operation.  Class expected : class java.lang.Integer, Class received : class java.lang.String.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.findInternal(EntityManagerImpl.java:901)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:825)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.find(EntityManagerImpl.java:691)
+	at com.sun.enterprise.container.common.impl.EntityManagerWrapper.find(EntityManagerWrapper.java:342)
+	at PAP.SESSION.Application.connect(Application.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-02T16:45:06.966+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541173506966] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T16:45:06.966+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541173506966] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T16:45:07.193+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541173507193] [levelValue: 1000] [[
+  fonctionne pas la zone]]
+
+[2018-11-02T16:45:10.660+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541173510660] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T16:45:10.660+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541173510660] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T16:45:10.849+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541173510849] [levelValue: 1000] [[
+  fonctionne pas la zone]]
+
+[2018-11-02T16:52:19.249+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=154 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541173939249] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@6f7b8212]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 33edbfa8 Created: 2 nov. 2018 14:39:45]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T16:52:34.156+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541173954156] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T16:52:34.246+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541173954246] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 201 milliseconds.]]
+
+[2018-11-02T16:53:37.468+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174017468] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-02T16:53:37.469+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174017469] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-02T16:53:46.506+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174026506] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-02T16:53:46.506+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174026506] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-02T16:53:46.835+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174026835] [levelValue: 1000] [[
+  PAP.EXCEPTION.AlreadyExistsUserException: An user already exists with the mail adress : yannis.le-guen@hotmail.fr
+	at PAP.SESSION.Application.subscribe(Application.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy486.subscribe(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T16:54:03.658+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174043658] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T16:54:03.658+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174043658] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T16:54:03.854+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174043854] [levelValue: 1000] [[
+  deja co la zone]]
+
+[2018-11-02T16:55:10.772+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174110772] [levelValue: 800] [[
+  sell]]
+
+[2018-11-02T16:55:10.773+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174110773] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-02T16:55:12.018+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174112018] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T16:55:12.020+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541174112020] [levelValue: 1000] [[
+  java.lang.NullPointerException
+	at controler.dedie.CDrop.treatRequest(CDrop.java:47)
+	at controler.CAppli.service(CAppli.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-02T16:59:46.375+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=44 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541174386375] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@6f7b8212]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 47fd349f Created: 2 nov. 2018 16:52:34]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T16:59:50.290+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541174390290] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T16:59:50.381+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541174390381] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 233 milliseconds.]]
+
+[2018-11-02T17:02:17.186+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541174537186] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T17:02:17.188+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541174537188] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T17:02:18.326+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541174538326] [levelValue: 1000] [[
+  deja co la zone]]
+
+[2018-11-02T17:02:18.326+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541174538326] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T17:08:51.872+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541174931872] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@6f7b8212]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 1cdb0784 Created: 2 nov. 2018 16:59:50]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T17:08:52.765+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541174932765] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T17:08:52.847+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=156 _ThreadName=admin-thread-pool::admin-listener(5)] [timeMillis: 1541174932847] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 1 013 milliseconds.]]
+
+[2018-11-02T17:09:17.510+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541174957510] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T17:09:17.511+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541174957511] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T17:09:17.739+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541174957739] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-02T17:09:17.740+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541174957740] [levelValue: 800] [[
+  ,,o,o]]
+
+[2018-11-02T17:09:17.740+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541174957740] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T17:09:17.740+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541174957740] [levelValue: 1000] [[
+  deja co la zone]]
+
+[2018-11-02T17:09:50.474+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174990474] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T17:09:50.474+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174990474] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T17:09:50.659+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174990659] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-02T17:09:50.659+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174990659] [levelValue: 800] [[
+  ,mlknknkjn jknjkn]]
+
+[2018-11-02T17:09:50.659+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174990659] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T17:09:50.659+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541174990659] [levelValue: 1000] [[
+  deja co la zone]]
+
+[2018-11-02T17:10:06.206+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541175006206] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T17:10:06.207+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541175006207] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T17:10:06.366+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541175006366] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-02T17:10:06.366+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541175006366] [levelValue: 800] [[
+  test]]
+
+[2018-11-02T17:10:06.366+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541175006366] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T17:10:06.366+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541175006366] [levelValue: 1000] [[
+  deja co la zone]]
+
+[2018-11-02T17:10:44.831+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541175044831] [levelValue: 800] [[
+  connect]]
+
+[2018-11-02T17:10:44.831+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541175044831] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-02T17:10:45.002+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541175045002] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-02T17:10:45.002+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541175045002] [levelValue: 800] [[
+  ok]]
+
+[2018-11-02T17:10:45.002+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541175045002] [levelValue: 800] [[
+  null]]
+
+[2018-11-02T17:10:45.002+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541175045002] [levelValue: 1000] [[
+  deja co la zone]]
+
+[2018-11-02T17:13:16.312+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=44 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541175196312] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@6f7b8212]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 3a64662e Created: 2 nov. 2018 17:08:52]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-02T17:13:19.786+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=155 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541175199786] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-02T17:13:19.822+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=155 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541175199822] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 186 milliseconds.]]
+

@@ -28,24 +28,31 @@ public class CConnect implements ICTreatment {
 	@Override
 	public void treatRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//We get request's attributes 
-
+		
 		String email = request.getParameter("email");
+		System.out.println(email);
 		String pass = request.getParameter("pass");
-		HttpSession session = request.getSession(false);
+		System.out.println(pass);
+		HttpSession session = request.getSession();
 		
 		if (session == null) {
 			try {
 				if (app.connect(email, pass)) {
 					session.setAttribute("mail", email);
-					session.setAttribute("connect", true);
+					System.out.println(session.getAttribute("mail"));
+					session.setAttribute("connected", "ok");
+					
 				}
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				request.setAttribute("erreur",e);
+				System.err.println(e);
 			}
 		}else {
-			request.setAttribute("connected",false);
+			
+			System.err.println("deja co la zone");
+			System.out.println(session.getAttribute("mail"));
 		}
 
 
