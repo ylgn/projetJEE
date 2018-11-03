@@ -1,13 +1,14 @@
 package controler.dedie;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
+import PAP.MODEL.CLIENT.ObjectPAPForClient;
 import PAP.SESSION.IApplication;
 
 public class CSearch implements ICTreatment {
@@ -18,11 +19,19 @@ public class CSearch implements ICTreatment {
 			throws ServletException, IOException, Exception {
 		// TODO Auto-generated method stub
 		
-		String city = request.getParameter("city");
+		
 		String name = request.getParameter("name");
+		String city = request.getParameter("city");
 		
 			try {
-				app.search(name, city);
+				
+					List<ObjectPAPForClient> listeResultat = app.search(name,city);
+					request.setAttribute("liste", listeResultat);
+			        request.setAttribute( "name", name );
+			        request.setAttribute( "city", city);
+			        request.setAttribute( "city", city);
+			        request.setAttribute( "city", city);
+				
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -33,8 +42,9 @@ public class CSearch implements ICTreatment {
 
 
 		//
-		RequestDispatcher dispatch = request.getRequestDispatcher("./View/search.jsp");
+		RequestDispatcher dispatch = request.getRequestDispatcher("./View/searchAns.jsp");
 		dispatch.forward(request, response);
+	
 	}
 	}
 

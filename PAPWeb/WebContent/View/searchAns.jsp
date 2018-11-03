@@ -1,9 +1,12 @@
 <%@ page contentType="text/html" pageEncoding="utf-8"%>
+<%@ page import ="java.util.ArrayList"%>
+<%@ page import ="java.util.List"%>
+<%@ page import ="PAP.MODEL.CLIENT.*"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <%
+	List<ObjectPAPForClient> listeResultat = (List<ObjectPAPForClient>) request.getAttribute("liste");
 
-	String nomProduit = request.getParameter("motCle");
-	String villeClient = request.getParameter("city");
 	
 %>
 <html>
@@ -321,7 +324,7 @@
 		<div class="container">
 			<ul class="breadcrumb">
 				<li><a href="./View/index.html">Accueil</a></li>
-				<li class="active">Inscription</li>
+				<li class="active">Recherche</li>
 			</ul>
 		</div>
 	</div>
@@ -333,68 +336,24 @@
 		<div class="container">
 			<!-- row -->
 			<div class="row">
-			
-					<div class="col-md-6 offset-md-3">
-						<div class="billing-details">
-							<p>Déjà inscrit ?<a href="./View/login.html"> Connectez-vous</a></p>
-							<div class="section-title">
-								<h3 class="title">inscription</h3>
-							</div>
-								<p>
+									
 								
 								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								test
+							<table>
+							   <tbody>
+							      <c:forEach var="itemSearch" items="${liste}" >
+							          <tr>
+							              <td><c:out value="${itemSearch.name}"></c:out></td>
+							              <td><c:out value="${itemSearch.city}"></c:out></td>
+							          </tr>
+							      </c:forEach>
+							   </tbody>
+							</table>
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-								</p>
 
-						</div>
-						</div>
-
-					<!-- </div> -->
+	
+	
 			</div>
 			<!-- /row -->
 		</div>

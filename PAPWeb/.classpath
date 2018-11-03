@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
-		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/webserv">
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/aopalliance-repackaged-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/asm-debug-all-5.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/genson-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/gf-client.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/hk2-api-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/hk2-locator-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/hk2-utils-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/javax.inject-2.5.0-b05.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/jersey-client.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/jersey-common.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/jersey-container-servlet.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/jersey-container-servlet-core.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/jersey-guava-2.23.2.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/jersey-media-jaxb.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/jersey-server.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="con" path="org.eclipse.payara.tools.lib.system">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/aopalliance-repackaged-2.5.0-b05.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/asm-debug-all-5.0.4.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/genson-1.4.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/gf-client.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/hk2-api-2.5.0-b05.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/hk2-locator-2.5.0-b05.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/hk2-utils-2.5.0-b05.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/javassist-3.20.0-GA.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/javax.annotation-api-1.2.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/javax.inject-2.5.0-b05.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/javax.servlet-api-3.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/javax.ws.rs-api-2.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/jaxb-api-2.2.7.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/jersey-client.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/jersey-common.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/jersey-container-servlet-core.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/jersey-container-servlet.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/jersey-guava-2.23.2.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/jersey-media-jaxb.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/jersey-server.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/org.osgi.core-4.2.0.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/osgi-resource-locator-1.0.1.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/persistence-api-1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/jersey-tous-jars/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
