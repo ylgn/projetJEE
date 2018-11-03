@@ -2,12 +2,10 @@ package PAP.SESSION;
 
 import java.util.List;
 
-import javax.ejb.Remote;
-
-import PAP.MODEL.ObjectPAP;
+import PAP.ENTITY.ObjectPAP;
 import PAP.MODEL.UserPAP;
 
-@Remote
+
 public interface IApplication {
 	public boolean connect(String mail, String pass) throws Exception;
 	public void subscribe(String name,String email,String pass,String city) throws Exception;

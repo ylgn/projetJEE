@@ -46,11 +46,10 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
 
 	
 	Exception nonConnecte = (Exception) request.getAttribute("erreur");
-	//help!!!!!!!!
 	double prix = Double.parseDouble(request.getParameter("price")); 
 	String description = request.getParameter("description");
 	String ville = request.getParameter("city");
-	String nom = request.getParameter("name");
+	String name = request.getParameter("name");
 
       out.write("\n");
       out.write("<html>\n");
@@ -65,20 +64,20 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t<link href=\"https://fonts.googleapis.com/css?family=Hind:400,700\" rel=\"stylesheet\">\n");
       out.write("\n");
       out.write("\t<!-- Bootstrap -->\n");
-      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"./style/css/bootstrap.min.css\" />\n");
+      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../style/css/bootstrap.min.css\" />\n");
       out.write("\n");
       out.write("\t<!-- Slick -->\n");
-      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"./style/css/slick.css\" />\n");
-      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"./style/css/slick-theme.css\" />\n");
+      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../style/css/slick.css\" />\n");
+      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../style/css/slick-theme.css\" />\n");
       out.write("\n");
       out.write("\t<!-- nouislider -->\n");
-      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"./style/css/nouislider.min.css\" />\n");
+      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../style/css/nouislider.min.css\" />\n");
       out.write("\n");
       out.write("\t<!-- Font Awesome Icon -->\n");
-      out.write("\t<link rel=\"stylesheet\" href=\"./style/css/font-awesome.min.css\">\n");
+      out.write("\t<link rel=\"stylesheet\" href=\"../style/css/font-awesome.min.css\">\n");
       out.write("\n");
       out.write("\t<!-- Custom stlylesheet -->\n");
-      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"./style/css/style.css\" />\n");
+      out.write("\t<link type=\"text/css\" rel=\"stylesheet\" href=\"../style/css/style.css\" />\n");
       out.write("\n");
       out.write("\t<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n");
       out.write("\t<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n");
@@ -120,7 +119,7 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t<!-- Logo -->\n");
       out.write("\t\t\t\t\t<div class=\"header-logo\">\n");
       out.write("\t\t\t\t\t\t<a class=\"logo\" href=\"index.html\">\n");
-      out.write("\t\t\t\t\t\t\t<img src=\"./style/img/logo.png\" alt=\"\">\n");
+      out.write("\t\t\t\t\t\t\t<img src=\"../style/img/logo.png\" alt=\"\">\n");
       out.write("\t\t\t\t\t\t</a>\n");
       out.write("\t\t\t\t\t</div>\n");
       out.write("\t\t\t\t\t<!-- /Logo -->\n");
@@ -128,17 +127,13 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t<!-- Search -->\n");
       out.write("\t\t\t\t\t<div class=\"header-search\">\n");
       out.write("\t\t\t\t\t\t<form>\n");
-      out.write("\t\t\t\t\t\t\t<input class=\"input search-input\" type=\"text\" placeholder=\"Entrez des mots clés\">\n");
-      out.write("\t\t\t\t\t\t\t<select class=\"input search-categories\">\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"0\">Villes</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Paris</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Marseille</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Montpellier</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Toulon</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Lyon</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Caen</option>\n");
-      out.write("\t\t\t\t\t\t\t</select>\n");
+      out.write("\t\t\t\t\t\t\t<input class=\"input search-input\" type=\"text\" placeholder=\"Entrez des mots clés\" name=\"motCle\">\n");
+      out.write("\t\t\t\t\t\t\t<input class=\"input search-categories\" type=\"text\" placeholder=\"Ville\" name=\"city\">\n");
+      out.write("\t\t\t\t\t\t\t<div>\n");
+      out.write("\t\t\t\t\t\t\t<input type=\"hidden\" name=\"function\" value =\"search\" />\n");
       out.write("\t\t\t\t\t\t\t<button class=\"search-btn\"><i class=\"fa fa-search\"></i></button>\n");
+      out.write("\t\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t\t\n");
       out.write("\t\t\t\t\t\t</form>\n");
       out.write("\t\t\t\t\t</div>\n");
       out.write("\t\t\t\t\t<!-- /Search -->\n");
@@ -156,12 +151,12 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t\t\t</div>\n");
       out.write("\t\t\t\t\t\t\t\n");
       out.write("\t\t\t\t\t\t\t<ul class=\"custom-menu\">\n");
-      out.write("\t\t\t\t\t\t\t\t<li><a href=\"login.html\"><i class=\"fa fa-user-o\"></i>Se connecter</a></li>\n");
+      out.write("\t\t\t\t\t\t\t\t<li><a href=\"./View/login.html\"><i class=\"fa fa-user-o\"></i>Se connecter</a></li>\n");
       out.write("\t\t\t\t\t\t\t\t<!-- <li><a href=\"#\"><i class=\"fa fa-heart-o\"></i> My Wishlist</a></li> -->\n");
       out.write("\t\t\t\t\t\t\t\t<!-- <li><a href=\"#\"><i class=\"fa fa-exchange\"></i> Compare</a></li> -->\n");
       out.write("\t\t\t\t\t\t\t\t<!-- <li><a href=\"#\"><i class=\"fa fa-check\"></i> Checkout</a></li> -->\n");
       out.write("\t\t\t\t\t\t\t\t<!-- <li><a href=\"#\"><i class=\"fa fa-unlock-alt\"></i> Login</a></li> -->\n");
-      out.write("\t\t\t\t\t\t\t\t<li><a href=\"subscribe.html\"><i class=\"fa fa-user-plus\"></i>S'inscrire</a></li>\n");
+      out.write("\t\t\t\t\t\t\t\t<li><a href=\"./View/subscribe.html\"><i class=\"fa fa-user-plus\"></i>S'inscrire</a></li>\n");
       out.write("\t\t\t\t\t\t\t</ul>\n");
       out.write("\t\t\t\t\t\t</li>\n");
       out.write("\t\t\t\t\t\t<!-- /Account -->\n");
@@ -355,7 +350,7 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t<div class=\"menu-nav\">\n");
       out.write("\t\t\t\t\t<span class=\"menu-header\">Menu <i class=\"fa fa-bars\"></i></span>\n");
       out.write("\t\t\t\t\t<ul class=\"menu-list\">\n");
-      out.write("\t\t\t\t\t\t<li><a href=\"sell.html\">mettre un objet à vendre</a></li>\n");
+      out.write("\t\t\t\t\t\t<li><a href=\"./View/sell.html\">mettre un objet à vendre</a></li>\n");
       out.write("\t\t\t\t\t</ul>\n");
       out.write("\t\t\t\t</div>\n");
       out.write("\t\t\t\t<!-- menu nav -->\n");
@@ -369,7 +364,7 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t<div id=\"breadcrumb\">\n");
       out.write("\t\t<div class=\"container\">\n");
       out.write("\t\t\t<ul class=\"breadcrumb\">\n");
-      out.write("\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n");
+      out.write("\t\t\t\t<li><a href=\"./View/index.html\">Accueil</a></li>\n");
       out.write("\t\t\t\t<li class=\"active\">Inscription</li>\n");
       out.write("\t\t\t</ul>\n");
       out.write("\t\t</div>\n");
@@ -399,7 +394,7 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t\t\t\t\t");
 }	else { 
       out.write("\n");
-      out.write("\t\t\t\t\t\t\t\t\t\tErreur, vous n'êtes pas connecté. <a href=\"subscribe.html\">Inscrivez vous</a> ou <a href=\"login.html\">connectez-vous</a>.\n");
+      out.write("\t\t\t\t\t\t\t\t\t\tErreur, vous n'êtes pas connecté. <a href=\"./View/subscribe.html\">Inscrivez vous</a> ou <a href=\"./View/login.html\">connectez-vous</a>.\n");
       out.write("\t\t\t\t\t\t\t\t\t");
 } 
       out.write("\n");
@@ -429,7 +424,7 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t\t<!-- footer logo -->\n");
       out.write("\t\t\t\t\t\t<div class=\"footer-logo\">\n");
       out.write("\t\t\t\t\t\t\t<a class=\"logo\" href=\"#\">\n");
-      out.write("\t\t            <img src=\"./style/img/logo.png\" alt=\"\">\n");
+      out.write("\t\t            <img src=\"../style/img/logo.png\" alt=\"\">\n");
       out.write("\t\t          </a>\n");
       out.write("\t\t\t\t\t\t</div>\n");
       out.write("\t\t\t\t\t\t<!-- /footer logo -->\n");
@@ -499,12 +494,12 @@ public final class sellAns_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t<!-- /FOOTER -->\n");
       out.write("\n");
       out.write("\t<!-- jQuery Plugins -->\n");
-      out.write("\t<script src=\"./style/js/jquery.min.js\"></script>\n");
-      out.write("\t<script src=\"./style/js/bootstrap.min.js\"></script>\n");
-      out.write("\t<script src=\"./style/js/slick.min.js\"></script>\n");
-      out.write("\t<script src=\"./style/js/nouislider.min.js\"></script>\n");
-      out.write("\t<script src=\"./style/js/jquery.zoom.min.js\"></script>\n");
-      out.write("\t<script src=\"./style/js/main.js\"></script>\n");
+      out.write("\t<script src=\"../style/js/jquery.min.js\"></script>\n");
+      out.write("\t<script src=\"../style/js/bootstrap.min.js\"></script>\n");
+      out.write("\t<script src=\"../style/js/slick.min.js\"></script>\n");
+      out.write("\t<script src=\"../style/js/nouislider.min.js\"></script>\n");
+      out.write("\t<script src=\"../style/js/jquery.zoom.min.js\"></script>\n");
+      out.write("\t<script src=\"../style/js/main.js\"></script>\n");
       out.write("\n");
       out.write("</body>\n");
       out.write("\n");

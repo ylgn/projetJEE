@@ -1,6 +1,6 @@
 package PAP.MODEL;
 
-public class ObjectPAP {
+public class ObjectPAPForClient {
 	
 
 	private int numObject;
@@ -12,11 +12,11 @@ public class ObjectPAP {
 	private Boolean isSelled = false;
 	
 	
-	public ObjectPAP() {
+	public ObjectPAPForClient() {
 		
 	}
 	
-	public ObjectPAP(String mail,String name, String description, double price, String city) {
+	public ObjectPAPForClient(String mail,String name, String description, double price, String city) {
 		this.nameObject =name;
 		this.descriptionObject = description;
 		this.priceObject = price;

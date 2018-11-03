@@ -17,7 +17,7 @@ import javax.ws.rs.client.Invocation;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 
-import PAP.MODEL.ObjectPAP;
+import PAP.MODEL.ObjectPAPForClient;
 import PAP.SESSION.IApplication;
 
 public class CDrop implements ICTreatment {
@@ -53,8 +53,8 @@ public class CDrop implements ICTreatment {
 			ressource = ressource.path("resources/objects");
 			Invocation.Builder httpQuery = ressource.request();
 			
-			Entity<ObjectPAP> monEntity = Entity.json(new ObjectPAP(mail, name, description, price, city));
-			ObjectPAP prodCree = httpQuery.accept(MediaType.APPLICATION_JSON).post(monEntity,ObjectPAP.class);
+			Entity<ObjectPAPForClient> monEntity = Entity.json(new ObjectPAPForClient(mail, name, description, price, city));
+			ObjectPAPForClient prodCree = httpQuery.accept(MediaType.APPLICATION_JSON).post(monEntity,ObjectPAPForClient.class);
 		}
 		
 		RequestDispatcher dispatch = request.getRequestDispatcher("./View/sellAns.jsp");

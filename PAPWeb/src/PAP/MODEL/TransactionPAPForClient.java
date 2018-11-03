@@ -3,22 +3,22 @@ package PAP.MODEL;
 import java.io.Serializable;
 import java.sql.Date;
 
-public class TransactionPAP implements Serializable {
+public class TransactionPAPForClient implements Serializable {
 	
 	
 	private static final long serialVersionUID = 1L;
 	private int numTransact;
-	private UserPAP owner;
-	private UserPAP seller;
-	private ObjectPAP objectTransact;
+	private UserPAPForClient owner;
+	private UserPAPForClient seller;
+	private ObjectPAPForClient objectTransact;
 	private Date dateTransact;
 	
 	
-	public TransactionPAP() {
+	public TransactionPAPForClient() {
 		
 	}
 
-	public TransactionPAP(int numTransact, UserPAP owner, UserPAP seller, ObjectPAP objectTransact, Date dateTransact) {
+	public TransactionPAPForClient(int numTransact, UserPAPForClient owner, UserPAPForClient seller, ObjectPAPForClient objectTransact, Date dateTransact) {
 		super();
 		this.numTransact = numTransact;
 		this.owner = owner;
@@ -36,27 +36,27 @@ public class TransactionPAP implements Serializable {
 		this.numTransact = numTransact;
 	}
 
-	public UserPAP getOwner() {
+	public UserPAPForClient getOwner() {
 		return owner;
 	}
 
-	public void setOwner(UserPAP owner) {
+	public void setOwner(UserPAPForClient owner) {
 		this.owner = owner;
 	}
 
-	public UserPAP getSeller() {
+	public UserPAPForClient getSeller() {
 		return seller;
 	}
 
-	public void setSeller(UserPAP seller) {
+	public void setSeller(UserPAPForClient seller) {
 		this.seller = seller;
 	}
 
-	public ObjectPAP getObjectTransact() {
+	public ObjectPAPForClient getObjectTransact() {
 		return objectTransact;
 	}
 
-	public void setObjectTransact(ObjectPAP objectTransact) {
+	public void setObjectTransact(ObjectPAPForClient objectTransact) {
 		this.objectTransact = objectTransact;
 	}
 

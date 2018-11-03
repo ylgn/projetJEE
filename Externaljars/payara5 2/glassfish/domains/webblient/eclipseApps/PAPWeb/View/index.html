@@ -75,19 +75,18 @@
 
 					<!-- Search -->
 					<div class="header-search">
+				
 						<form>
-							<input class="input search-input" type="text" placeholder="Entrez des mots clés">
-							<select class="input search-categories">
-								<option value="0">Villes</option>
-								<option value="1">Paris</option>
-								<option value="1">Marseille</option>
-								<option value="1">Montpellier</option>
-								<option value="1">Toulon</option>
-								<option value="1">Lyon</option>
-								<option value="1">Caen</option>
-							</select>
+							<input class="input search-input" type="text" placeholder="Entrez des mots clés" name="motCle">
+							<input class="input search-categories" type="text" placeholder="Ville" name="city">
+							<div>
+							<input type="hidden" name="function" value ="search" />
 							<button class="search-btn"><i class="fa fa-search"></i></button>
+							</div>
+							
 						</form>
+						
+					
 					</div>
 					<!-- /Search -->
 				</div>
@@ -303,7 +302,7 @@
 				<div class="menu-nav">
 					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
 					<ul class="menu-list">
-						<li><a href="#">mettre un objet à vendre</a></li>
+						<li><a href="sell.html">mettre un objet à vendre</a></li>
 					</ul>
 				</div>
 				<!-- menu nav -->

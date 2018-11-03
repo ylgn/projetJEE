@@ -1,5 +1,6 @@
 package PAP.REST;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.naming.Context;
@@ -13,7 +14,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import PAP.MODEL.ObjectPAP;
+import PAP.ENTITY.ObjectPAP;
+import PAP.MODEL.ObjectPAPForClient;
 import PAP.SESSION.IApplication;
 
 @Path("resources")
@@ -42,7 +44,7 @@ public class resourcesAPI {
  	@POST
 	@Path("objects")
 	@Consumes(MediaType.APPLICATION_JSON)
- 	public void addObject(ObjectPAP o) {
+ 	public void addObject(ObjectPAPForClient o) {
  	
  		
  		try {
@@ -56,20 +58,26 @@ public class resourcesAPI {
 		
  	}
  	
+ 	
  	@GET
-	@Path("objects/{name}/{city}")
+	@Path("objects/{nameObject}/{cityObject}")
 	@Produces({MediaType.APPLICATION_JSON})
- 	public List<ObjectPAP> getObjectsByNameAndCity(@PathParam("name") String name,@PathParam("city") String city){
- 		
+ 	public List<ObjectPAPForClient> getObjectsByNameAndCity(@PathParam("nameObject") String name,@PathParam("cityObject") String city){
+ 	
  		try {
 			ctx = new InitialContext();
 			app = (IApplication) ctx.lookup("ejb/PAP");
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}
-		
- 		return app.search(name, city);
+ 		List<ObjectPAP> l = app.search(name, city);
+ 		List<ObjectPAPForClient> returnedList = new ArrayList<>();
+ 		for (ObjectPAP o : l) {
+			returnedList.add(new ObjectPAPForClient(o.getSeller().getMail(), o.getNameObject(), o.getDescriptionObject(), o.getPriceObject(), o.getCityObject()));
+		}
+ 		return returnedList;
  		
  	}
  	

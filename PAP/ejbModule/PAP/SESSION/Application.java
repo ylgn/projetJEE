@@ -55,12 +55,18 @@ public class Application implements IApplication {
 	@Override
 	public List<ObjectPAP> search(String name, String city) {
 		List<ObjectPAP> searchedList = new ArrayList<ObjectPAP>();
-		String query = ("SELECT o FROM ObjectPAP o WHERE o.name = :nameObject AND o.city = :cityObject");
-		Query req = em.createQuery (query).setParameter("nameObject", name);
-		req = em.createQuery (query).setParameter("cityObject", city);
+		//String query = ("SELECT o FROM ObjectPAP o WHERE o.nameObject = :name AND o.cityObject = :city");
+		String query = ("SELECT o FROM ObjectPAP o");
+		//String query = ("SELECT o FROM ObjectPAP o ");
+		Query req = em.createQuery (query);
+	    //req.setParameter("city", city);
+		req = em.createQuery (query);
 		List<ObjectPAP> list = req.getResultList();
 		for (ObjectPAP objectPAP : list) {
-			searchedList.add(objectPAP);
+			if (objectPAP.getNameObject().equals(name) && objectPAP.getCityObject().equals(city)) {
+				searchedList.add(objectPAP);
+			}
+		
 		}
 		return searchedList;
 	}

@@ -6,7 +6,7 @@
 		<class>com.ejbModule.PAP.ENTITY.UserPAP</class>
 		
 		<properties>
-			<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+			<property name="eclipselink.ddl-generation" value="create-tables"/>
 			<property name="eclipselink.weaving" value="false"/>
 			
 		</properties>		

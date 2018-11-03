@@ -7172,3 +7172,1180 @@ cannot find symbol
 	at java.lang.Thread.run(Thread.java:748)
 ]]
 
+[2018-11-03T09:47:56.382+0100] [Payara 5.183] [INFOS] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541234876217] [timeMillis: 1541234876382] [levelValue: 800] [[
+  Running Payara Version: Payara Server  5.183 #badassfish (build 380)]]
+
+[2018-11-03T09:47:56.386+0100] [Payara 5.183] [INFOS] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541234876217] [timeMillis: 1541234876386] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2018-11-03T09:47:57.482+0100] [Payara 5.183] [INFOS] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541234876217] [timeMillis: 1541234877482] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2018-11-03T09:47:57.832+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541234876224] [timeMillis: 1541234877832] [levelValue: 800] [[
+  Network Listener http-listener-1 started in: 32ms - bound to [/0.0.0.0:61826]]]
+
+[2018-11-03T09:47:57.933+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541234876224] [timeMillis: 1541234877933] [levelValue: 800] [[
+  Network Listener http-listener-2 started in: 3ms - bound to [/0.0.0.0:61829]]]
+
+[2018-11-03T09:47:57.947+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541234876224] [timeMillis: 1541234877947] [levelValue: 800] [[
+  Network Listener admin-listener started in: 1ms - bound to [/0.0.0.0:61825]]]
+
+[2018-11-03T09:47:57.953+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541234876224] [timeMillis: 1541234877953] [levelValue: 800] [[
+  Grizzly 2.4.3 started in: 1 340ms - bound to [http-listener-1:61826, http-listener-2:61829, admin-listener:61825]]]
+
+[2018-11-03T09:47:58.049+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1541234876217] [timeMillis: 1541234878049] [levelValue: 800] [[
+  Network Listener iiop-service started in: 0ms - bound to [/0.0.0.0:61828]]]
+
+[2018-11-03T09:47:58.966+0100] [Payara 5.183] [INFOS] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234878966] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2018-11-03T09:47:58.968+0100] [Payara 5.183] [INFOS] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234878968] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2018-11-03T09:47:58.976+0100] [Payara 5.183] [INFOS] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234878976] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2018-11-03T09:47:59.052+0100] [Payara 5.183] [INFOS] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234879052] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2018-11-03T09:47:59.719+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234879719] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:61826]]
+
+[2018-11-03T09:47:59.736+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234879736] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:61829]]
+
+[2018-11-03T09:47:59.739+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234879739] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:61825]]
+
+[2018-11-03T09:47:59.822+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234879822] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2018-11-03T09:47:59.831+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234879831] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2018-11-03T09:48:00.347+0100] [Payara 5.183] [INFOS] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234880347] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2018-11-03T09:48:00.349+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234880349] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2018-11-03T09:48:06.170+0100] [Payara 5.183] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234886170] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.12.Final]]
+
+[2018-11-03T09:48:08.681+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234888681] [levelValue: 800] [[
+  Loading application PAPWeb done in 11 341 ms]]
+
+[2018-11-03T09:48:13.599+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234893599] [levelValue: 800] [[
+  Hazelcast Instance Bound to JNDI at payara/Hazelcast]]
+
+[2018-11-03T09:48:13.599+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234893599] [levelValue: 800] [[
+  JSR107 Caching Provider Bound to JNDI at payara/CachingProvider]]
+
+[2018-11-03T09:48:13.600+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234893600] [levelValue: 800] [[
+  JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager]]
+
+[2018-11-03T09:48:13.706+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1541234876216] [timeMillis: 1541234893706] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-03T09:48:14.044+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.cluster.PayaraCluster] [tid: _ThreadID=98 _ThreadName=Executor-Service-5] [timeMillis: 1541234894044] [levelValue: 800] [[
+  Data Grid Status 
+Payara Data Grid State: DG Version: 35 DG Size: 1
+Instances: {
+Address: /192.168.1.42:4900 UUID: 66df4ad4-821d-4fb8-a80e-577b26a29f85 Lite: false This: true Name: server Group: server-config
+}]]
+
+[2018-11-03T09:48:14.046+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1541234894046] [levelValue: 800] [[
+  Payara Server  5.183 #badassfish (380) startup time : Felix (3 864ms), startup services(17 836ms), total(21 700ms)]]
+
+[2018-11-03T09:48:14.049+0100] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.notification.NotificationService] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1541234894049] [levelValue: 800] [[
+  Payara Notification Service bootstrapped with configuration: NotificationExecutionOptions{enabled=true, notifierConfigurationExecutionOptionsList={LOG=LogNotifierConfigurationExecutionOptions{useSeparateLogFile=false} NotifierConfigurationExecutionOptions{notifierType=LOG, enabled=true, noisy=true}}}]]
+
+[2018-11-03T09:48:14.458+0100] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1541234876224] [timeMillis: 1541234894458] [levelValue: 800] [[
+  Network Listener JMS_PROXY_default_JMS_host started in: 1ms - bound to [/0.0.0.0:61827]]]
+
+[2018-11-03T09:48:14.762+0100] [Payara 5.183] [INFOS] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=113 _ThreadName=Thread-15] [timeMillis: 1541234894762] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://0.0.0.0:61832/jndi/rmi://0.0.0.0:61832/jmxrmi]]
+
+[2018-11-03T09:48:43.543+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541234923543] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-03T09:48:43.622+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541234923622] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 573 milliseconds.]]
+
+[2018-11-03T09:48:58.706+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=167 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541234938706] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-03T09:48:58.736+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=167 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541234938736] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 168 milliseconds.]]
+
+[2018-11-03T09:49:25.135+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541234965135] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T09:49:25.136+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541234965136] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T09:49:25.204+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.resource.corba.org.glassfish.enterprise.iiop.api] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541234965204] [levelValue: 800] [[
+  GlassFishORBFactory service initialized.]]
+
+[2018-11-03T09:49:26.909+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541234966909] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId=[61828]]]
+
+[2018-11-03T09:49:28.112+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541234968112] [levelValue: 1000] [[
+  javax.naming.NamingException: Lookup failed for 'ejb/PAP' in SerialContext[myEnv={org.omg.CORBA.ORBInitialPort=3700, java.naming.factory.initial=com.sun.enterprise.naming.impl.SerialInitContextFactory, org.omg.CORBA.ORBInitialHost=51.68.226.60, java.naming.factory.state=com.sun.corba.ee.impl.presentation.rmi.JNDIStateFactoryImpl, java.naming.factory.url.pkgs=com.sun.enterprise.naming} [Root exception is javax.naming.NameNotFoundException: PAP not found]
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:496)
+	at com.sun.enterprise.naming.impl.SerialContext.lookup(SerialContext.java:442)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at javax.naming.InitialContext.lookup(InitialContext.java:417)
+	at controler.dedie.CSubscribe.<init>(CSubscribe.java:23)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at controler.CAppli.service(CAppli.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.naming.NameNotFoundException: PAP not found
+	at com.sun.enterprise.naming.impl.TransientContext.doLookup(TransientContext.java:237)
+	at com.sun.enterprise.naming.impl.TransientContext.lookup(TransientContext.java:204)
+	at com.sun.enterprise.naming.impl.TransientContext.lookup(TransientContext.java:208)
+	at com.sun.enterprise.naming.impl.SerialContextProviderImpl.lookup(SerialContextProviderImpl.java:70)
+	at com.sun.enterprise.naming.impl.RemoteSerialContextProviderImpl.lookup(RemoteSerialContextProviderImpl.java:109)
+	at sun.reflect.GeneratedMethodAccessor1075.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	... 1 more
+]]
+
+[2018-11-03T09:55:54.758+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=45 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541235354758] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@54f5bb52]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 49ff93b0 Created: 3 nov. 2018 09:48:58]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-03T09:55:55.532+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=45 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541235355532] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-03T09:55:55.554+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=45 _ThreadName=admin-thread-pool::admin-listener(1)] [timeMillis: 1541235355554] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 862 milliseconds.]]
+
+[2018-11-03T09:56:23.995+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541235383995] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T09:56:23.995+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541235383995] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T09:56:48.261+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541235408261] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T09:56:48.261+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541235408261] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T09:56:48.716+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541235408716] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T09:56:48.716+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541235408716] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T09:56:48.901+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541235408901] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T09:59:37.916+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541235577916] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T09:59:37.917+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541235577917] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T10:05:07.120+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541235907120] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T10:05:07.120+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541235907120] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T10:14:10.498+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541236450498] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T10:14:10.500+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541236450500] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T10:14:10.692+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541236450692] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:14:10.693+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541236450693] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T10:14:10.838+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541236450838] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy494.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at PAP.SESSION.Application.connect(Application.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-03T10:14:10.840+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541236450840] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy494.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at PAP.SESSION.Application.connect(Application.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-03T10:14:44.947+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541236484947] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T10:14:44.948+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541236484948] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T10:15:09.549+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541236509549] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T10:15:09.550+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541236509550] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T10:23:23.043+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=167 _ThreadName=admin-thread-pool::admin-listener(4)] [timeMillis: 1541237003043] [levelValue: 1000] [[
+  The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@54f5bb52]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 6008938a Created: 3 nov. 2018 09:55:55]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2018-11-03T10:23:32.648+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=166 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541237012648] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-03T10:23:32.754+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=166 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541237012754] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 291 milliseconds.]]
+
+[2018-11-03T10:32:39.910+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541237559910] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T10:32:39.911+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541237559911] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T10:32:40.453+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541237560453] [levelValue: 1000] [[
+  java.lang.NullPointerException
+	at controler.dedie.CDrop.treatRequest(CDrop.java:49)
+	at controler.CAppli.service(CAppli.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-03T10:32:55.427+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237575427] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T10:32:55.427+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237575427] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T10:32:55.835+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237575835] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:32:55.836+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237575836] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T10:32:56.458+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237576458] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy496.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at PAP.SESSION.Application.connect(Application.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.GeneratedMethodAccessor2172.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-03T10:32:56.460+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237576460] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy496.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at PAP.SESSION.Application.connect(Application.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.GeneratedMethodAccessor2172.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-03T10:33:18.676+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541237598676] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T10:33:18.676+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541237598676] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T10:34:06.926+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237646926] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T10:34:06.926+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237646926] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T10:34:07.104+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237647104] [levelValue: 1000] [[
+  java.lang.NullPointerException
+	at controler.dedie.CDrop.treatRequest(CDrop.java:49)
+	at controler.CAppli.service(CAppli.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1628)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:258)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:755)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:575)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:159)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:371)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:238)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper$HttpHandlerCallable.call(ContainerMapper.java:516)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:213)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:182)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:156)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:218)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:95)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:260)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:177)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:109)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:88)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:53)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:524)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:89)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:94)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:33)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:114)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:569)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:549)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-03T10:34:30.233+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541237670233] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T10:34:30.233+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541237670233] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T10:34:30.426+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541237670426] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:34:30.426+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541237670426] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T10:34:30.497+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541237670497] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:34:42.295+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237682295] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T10:34:42.295+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237682295] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T10:37:23.442+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237843442] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T10:37:23.442+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541237843442] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T10:37:40.029+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237860029] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T10:37:40.029+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237860029] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T10:37:40.214+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237860214] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:37:40.214+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237860214] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T10:37:40.278+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237860278] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:37:48.969+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237868969] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T10:37:48.969+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541237868969] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T10:53:11.766+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238791766] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T10:53:11.767+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238791767] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T10:53:11.963+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238791963] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:53:11.963+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238791963] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T10:53:12.122+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238792122] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy500.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at PAP.SESSION.Application.connect(Application.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-03T10:53:12.124+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238792124] [levelValue: 1000] [[
+  javax.ejb.EJBException
+	at com.sun.ejb.containers.EJBContainerTransactionManager.processSystemException(EJBContainerTransactionManager.java:750)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.completeNewTx(EJBContainerTransactionManager.java:700)
+	at com.sun.ejb.containers.EJBContainerTransactionManager.postInvokeTx(EJBContainerTransactionManager.java:505)
+	at com.sun.ejb.containers.BaseContainer.postInvokeTx(BaseContainer.java:4647)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2123)
+	at com.sun.ejb.containers.BaseContainer.postInvoke(BaseContainer.java:2093)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:212)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy500.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at PAP.SESSION.Application.connect(Application.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	... 23 more
+]]
+
+[2018-11-03T10:53:30.494+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238810494] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T10:53:30.495+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238810495] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T10:53:46.616+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541238826616] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T10:53:46.617+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541238826617] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T10:53:46.817+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541238826817] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:53:46.817+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541238826817] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T10:53:46.887+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541238826887] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T10:53:59.442+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238839442] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T10:53:59.442+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541238839442] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T11:08:45.135+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541239725135] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 47561 ms]]
+
+[2018-11-03T11:08:48.105+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=304 _ThreadName=hz._hzInstance_1_development.cached.thread-5] [timeMillis: 1541239728105] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 46605 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-03T11:08:58.124+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541239738124] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 46609 ms]]
+
+[2018-11-03T11:11:10.080+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541239870080] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 10453 ms]]
+
+[2018-11-03T11:12:28.078+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541239948078] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 25234 ms]]
+
+[2018-11-03T11:12:28.079+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541239948079] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 21238 ms]]
+
+[2018-11-03T11:13:50.079+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541240030079] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 53015 ms]]
+
+[2018-11-03T11:13:50.079+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541240030079] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 52014 ms]]
+
+[2018-11-03T11:13:50.093+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=311 _ThreadName=hz._hzInstance_1_development.cached.thread-8] [timeMillis: 1541240030093] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 52041 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-03T11:15:04.076+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541240104076] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 21260 ms]]
+
+[2018-11-03T11:15:04.077+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541240104077] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 17258 ms]]
+
+[2018-11-03T12:32:41.077+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541244761077] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 4644038 ms]]
+
+[2018-11-03T12:32:42.481+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=305 _ThreadName=hz._hzInstance_1_development.cached.thread-6] [timeMillis: 1541244762481] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 4643456 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-03T12:32:42.496+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541244762496] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 4643418 ms]]
+
+[2018-11-03T12:33:10.087+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541244790087] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 13583 ms]]
+
+[2018-11-03T12:33:10.087+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541244790087] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 12592 ms]]
+
+[2018-11-03T12:33:40.084+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541244820084] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 11344 ms]]
+
+[2018-11-03T12:44:36.080+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541245476080] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 603012 ms]]
+
+[2018-11-03T12:44:36.083+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=309 _ThreadName=hz._hzInstance_1_development.cached.thread-1] [timeMillis: 1541245476083] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 601027 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-03T12:44:44.277+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541245484277] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 599203 ms]]
+
+[2018-11-03T13:05:27.077+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541246727077] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] MonitorInvocationsTask delayed 1238799 ms]]
+
+[2018-11-03T13:05:27.078+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.internal.cluster.impl.ClusterHeartbeatManager] [tid: _ThreadID=304 _ThreadName=hz._hzInstance_1_development.cached.thread-5] [timeMillis: 1541246727078] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] Resetting heartbeat timestamps because of huge system clock jump! Clock-Jump: 1237818 ms, Heartbeat-Timeout: 60000 ms]]
+
+[2018-11-03T13:05:38.045+0100] [Payara 5.183] [AVERTISSEMENT] [] [com.hazelcast.spi.impl.operationservice.impl.InvocationMonitor] [tid: _ThreadID=79 _ThreadName=hz._hzInstance_1_development.InvocationMonitorThread] [timeMillis: 1541246738045] [levelValue: 900] [[
+  [192.168.1.42]:4900 [development] [3.10.2] BroadcastOperationControlTask delayed 1238768 ms]]
+
+[2018-11-03T13:14:27.927+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541247267927] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T13:14:27.927+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541247267927] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T13:14:41.140+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541247281140] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T13:14:41.141+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541247281141] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T13:14:41.375+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541247281375] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:14:41.375+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541247281375] [levelValue: 800] [[
+  yannnis]]
+
+[2018-11-03T13:14:41.487+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541247281487] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:14:56.910+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247296910] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T13:14:56.910+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247296910] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T13:15:03.156+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247303156] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T13:15:03.157+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247303157] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T13:15:11.989+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247311989] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T13:15:11.989+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247311989] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T13:24:37.060+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541247877060] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T13:24:37.062+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541247877062] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T13:24:53.900+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247893900] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T13:24:53.900+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247893900] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T13:24:54.135+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247894135] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:24:54.136+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247894136] [levelValue: 800] [[
+  yannnis]]
+
+[2018-11-03T13:24:54.225+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247894225] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:25:08.274+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247908274] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T13:25:08.274+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541247908274] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T13:35:12.977+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541248512977] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T13:35:12.977+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541248512977] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T13:35:23.637+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248523637] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T13:35:23.637+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248523637] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T13:35:24.005+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248524005] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:35:24.005+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248524005] [levelValue: 800] [[
+  yannnis]]
+
+[2018-11-03T13:35:24.097+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248524097] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:35:42.354+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248542354] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T13:35:42.354+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248542354] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T13:40:09.728+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248809728] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T13:40:09.730+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248809730] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T13:40:25.683+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541248825683] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T13:40:25.684+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541248825684] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T13:40:25.956+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541248825956] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:40:25.957+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541248825957] [levelValue: 800] [[
+  yannnis]]
+
+[2018-11-03T13:40:26.140+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541248826140] [levelValue: 1000] [[
+  PAP.EXCEPTION.DoesntExistException: Email ou mot de passe incorrect
+	at PAP.SESSION.Application.connect(Application.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.GeneratedMethodAccessor2295.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.GeneratedMethodAccessor2292.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy510.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-03T13:40:26.143+0100] [Payara 5.183] [GRAVE] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541248826143] [levelValue: 1000] [[
+  PAP.EXCEPTION.DoesntExistException: Email ou mot de passe incorrect
+	at PAP.SESSION.Application.connect(Application.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.runMethod(EJBSecurityManager.java:953)
+	at org.glassfish.ejb.security.application.EJBSecurityManager.invoke(EJBSecurityManager.java:1017)
+	at com.sun.ejb.containers.BaseContainer.invokeBeanMethod(BaseContainer.java:4867)
+	at com.sun.ejb.EjbInvocation.invokeBeanMethod(EjbInvocation.java:656)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:836)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.doCall(SystemInterceptorProxy.java:163)
+	at com.sun.ejb.containers.interceptors.SystemInterceptorProxy.aroundInvoke(SystemInterceptorProxy.java:140)
+	at sun.reflect.GeneratedMethodAccessor2295.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.EjbInvocation.proceed(EjbInvocation.java:608)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.weld.module.ejb.SessionBeanInterceptor.aroundInvoke(SessionBeanInterceptor.java:52)
+	at sun.reflect.GeneratedMethodAccessor2292.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.ejb.containers.interceptors.AroundInvokeInterceptor.intercept(InterceptorManager.java:895)
+	at com.sun.ejb.containers.interceptors.AroundInvokeChainImpl.invokeNext(InterceptorManager.java:835)
+	at com.sun.ejb.containers.interceptors.InterceptorManager.intercept(InterceptorManager.java:374)
+	at com.sun.ejb.containers.BaseContainer.__intercept(BaseContainer.java:4839)
+	at com.sun.ejb.containers.BaseContainer.intercept(BaseContainer.java:4827)
+	at com.sun.ejb.containers.EJBObjectInvocationHandler.invoke(EJBObjectInvocationHandler.java:205)
+	at com.sun.ejb.containers.EJBObjectInvocationHandlerDelegate.invoke(EJBObjectInvocationHandlerDelegate.java:79)
+	at com.sun.proxy.$Proxy510.connect(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie.dispatchToMethod(ReflectiveTie.java:143)
+	at com.sun.corba.ee.impl.presentation.rmi.ReflectiveTie._invoke(ReflectiveTie.java:173)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatchToServant(ServerRequestDispatcherImpl.java:528)
+	at com.sun.corba.ee.impl.protocol.ServerRequestDispatcherImpl.dispatch(ServerRequestDispatcherImpl.java:199)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequestRequest(MessageMediatorImpl.java:1565)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:1441)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleInput(MessageMediatorImpl.java:946)
+	at com.sun.corba.ee.impl.protocol.giopmsgheaders.RequestMessage_1_2.callback(RequestMessage_1_2.java:213)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.handleRequest(MessageMediatorImpl.java:710)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.dispatch(MessageMediatorImpl.java:509)
+	at com.sun.corba.ee.impl.protocol.MessageMediatorImpl.doWork(MessageMediatorImpl.java:2238)
+	at com.sun.corba.ee.impl.threadpool.ThreadPoolImpl$TaskRunner.run(ThreadPoolImpl.java:189)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]
+
+[2018-11-03T13:40:30.530+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541248830530] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T13:40:30.530+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541248830530] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T13:40:30.781+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541248830781] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:40:30.781+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541248830781] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T13:40:30.870+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541248830870] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T13:41:00.536+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248860536] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T13:41:00.536+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=32 _ThreadName=http-thread-pool::http-listener-1(3)] [timeMillis: 1541248860536] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T13:41:11.654+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541248871654] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T13:41:11.655+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=34 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1541248871655] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+

@@ -128,17 +128,13 @@ public final class subscribeAns_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\t\t\t\t\t<!-- Search -->\n");
       out.write("\t\t\t\t\t<div class=\"header-search\">\n");
       out.write("\t\t\t\t\t\t<form>\n");
-      out.write("\t\t\t\t\t\t\t<input class=\"input search-input\" type=\"text\" placeholder=\"Entrez des mots clés\">\n");
-      out.write("\t\t\t\t\t\t\t<select class=\"input search-categories\">\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"0\">Villes</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Paris</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Marseille</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Montpellier</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Toulon</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Lyon</option>\n");
-      out.write("\t\t\t\t\t\t\t\t<option value=\"1\">Caen</option>\n");
-      out.write("\t\t\t\t\t\t\t</select>\n");
+      out.write("\t\t\t\t\t\t\t<input class=\"input search-input\" type=\"text\" placeholder=\"Entrez des mots clés\" name=\"motCle\">\n");
+      out.write("\t\t\t\t\t\t\t<input class=\"input search-categories\" type=\"text\" placeholder=\"Ville\" name=\"city\">\n");
+      out.write("\t\t\t\t\t\t\t<div>\n");
+      out.write("\t\t\t\t\t\t\t<input type=\"hidden\" name=\"function\" value =\"search\" />\n");
       out.write("\t\t\t\t\t\t\t<button class=\"search-btn\"><i class=\"fa fa-search\"></i></button>\n");
+      out.write("\t\t\t\t\t\t\t</div>\n");
+      out.write("\t\t\t\t\t\t\t\n");
       out.write("\t\t\t\t\t\t</form>\n");
       out.write("\t\t\t\t\t</div>\n");
       out.write("\t\t\t\t\t<!-- /Search -->\n");
@@ -355,7 +351,7 @@ public final class subscribeAns_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\t\t\t\t<div class=\"menu-nav\">\n");
       out.write("\t\t\t\t\t<span class=\"menu-header\">Menu <i class=\"fa fa-bars\"></i></span>\n");
       out.write("\t\t\t\t\t<ul class=\"menu-list\">\n");
-      out.write("\t\t\t\t\t\t<li><a href=\"#\">mettre un objet à vendre</a></li>\n");
+      out.write("\t\t\t\t\t\t<li><a href=\"./View/sell.html\">mettre un objet à vendre</a></li>\n");
       out.write("\t\t\t\t\t</ul>\n");
       out.write("\t\t\t\t</div>\n");
       out.write("\t\t\t\t<!-- menu nav -->\n");
@@ -369,7 +365,7 @@ public final class subscribeAns_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\t<div id=\"breadcrumb\">\n");
       out.write("\t\t<div class=\"container\">\n");
       out.write("\t\t\t<ul class=\"breadcrumb\">\n");
-      out.write("\t\t\t\t<li><a href=\"index.html\">Accueil</a></li>\n");
+      out.write("\t\t\t\t<li><a href=\"./View/index.html\">Accueil</a></li>\n");
       out.write("\t\t\t\t<li class=\"active\">Inscription</li>\n");
       out.write("\t\t\t</ul>\n");
       out.write("\t\t</div>\n");
@@ -385,7 +381,7 @@ public final class subscribeAns_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\t\t\t\n");
       out.write("\t\t\t\t\t<div class=\"col-md-6 offset-md-3\">\n");
       out.write("\t\t\t\t\t\t<div class=\"billing-details\">\n");
-      out.write("\t\t\t\t\t\t\t<p>Déjà inscrit ?<a href=\"login.html\"> Connectez-vous</a></p>\n");
+      out.write("\t\t\t\t\t\t\t<p>Déjà inscrit ?<a href=\"./View/login.html\"> Connectez-vous</a></p>\n");
       out.write("\t\t\t\t\t\t\t<div class=\"section-title\">\n");
       out.write("\t\t\t\t\t\t\t\t<h3 class=\"title\">inscription</h3>\n");
       out.write("\t\t\t\t\t\t\t</div>\n");
@@ -399,8 +395,8 @@ public final class subscribeAns_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\t\t\t\t\t\t\t\t\t");
 }	else { 
       out.write("\n");
-      out.write("\t\t\t\t\t\t\t\t\t\t<span style=\"color: red;\"> Erreur, le compte ");
-      out.print( nomClient );
+      out.write("\t\t\t\t\t\t\t\t\t\t<span style=\"color: red;\"> Erreur, un compte avec l'adresse email ");
+      out.print( emailClient );
       out.write(" existe déjà.</span>\n");
       out.write("\t\t\t\t\t\t\t\t\t");
 } 

@@ -1,18 +1,18 @@
 <%@ page contentType="text/html" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <%
+
+	String nomProduit = request.getParameter("motCle");
+	String villeClient = request.getParameter("city");
 	
-	Exception nonConnecte = (Exception) request.getAttribute("erreur");
-	double prix = Double.parseDouble(request.getParameter("price")); 
-	String description = request.getParameter("description");
-	String ville = request.getParameter("city");
-	String name = request.getParameter("name");
 %>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title>PAP</title>
 
@@ -20,20 +20,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
 
 	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="../style/css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/bootstrap.min.css" />
 
 	<!-- Slick -->
-	<link type="text/css" rel="stylesheet" href="../style/css/slick.css" />
-	<link type="text/css" rel="stylesheet" href="../style/css/slick-theme.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/slick-theme.css" />
 
 	<!-- nouislider -->
-	<link type="text/css" rel="stylesheet" href="../style/css/nouislider.min.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/nouislider.min.css" />
 
 	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="../style/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./style/css/font-awesome.min.css">
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="../style/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="./style/css/style.css" />
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,7 +75,7 @@
 					<!-- Logo -->
 					<div class="header-logo">
 						<a class="logo" href="index.html">
-							<img src="../style/img/logo.png" alt="">
+							<img src="./style/img/logo.png" alt="">
 						</a>
 					</div>
 					<!-- /Logo -->
@@ -107,12 +107,12 @@
 							</div>
 							
 							<ul class="custom-menu">
-								<li><a href="./View/login.html"><i class="fa fa-user-o"></i>Se connecter</a></li>
+								<li><a href="login.html"><i class="fa fa-user-o"></i>Se connecter</a></li>
 								<!-- <li><a href="#"><i class="fa fa-heart-o"></i> My Wishlist</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-exchange"></i> Compare</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-check"></i> Checkout</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li> -->
-								<li><a href="./View/subscribe.html"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
+								<li><a href="subscribe.html"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
 							</ul>
 						</li>
 						<!-- /Account -->
@@ -336,18 +336,61 @@
 			
 					<div class="col-md-6 offset-md-3">
 						<div class="billing-details">
-							
+							<p>Déjà inscrit ?<a href="./View/login.html"> Connectez-vous</a></p>
 							<div class="section-title">
 								<h3 class="title">inscription</h3>
 							</div>
 								<p>
-									<% if (nonConnecte == null) { %>
-										Votre objet <span style="color: red;"><%= name %></span> a bien été mis en vente!
-									<%}	else { %>
-										Erreur, vous n'êtes pas connecté. <a href="./View/subscribe.html">Inscrivez vous</a> ou <a href="./View/login.html">connectez-vous</a>.
-									<%} %>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								test
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 								</p>
-							
+
 						</div>
 						</div>
 
@@ -372,7 +415,7 @@
 						<!-- footer logo -->
 						<div class="footer-logo">
 							<a class="logo" href="#">
-		            <img src="../style/img/logo.png" alt="">
+		            <img src="./style/img/logo.png" alt="">
 		          </a>
 						</div>
 						<!-- /footer logo -->
@@ -442,12 +485,12 @@
 	<!-- /FOOTER -->
 
 	<!-- jQuery Plugins -->
-	<script src="../style/js/jquery.min.js"></script>
-	<script src="../style/js/bootstrap.min.js"></script>
-	<script src="../style/js/slick.min.js"></script>
-	<script src="../style/js/nouislider.min.js"></script>
-	<script src="../style/js/jquery.zoom.min.js"></script>
-	<script src="../style/js/main.js"></script>
+	<script src="./style/js/jquery.min.js"></script>
+	<script src="./style/js/bootstrap.min.js"></script>
+	<script src="./style/js/slick.min.js"></script>
+	<script src="./style/js/nouislider.min.js"></script>
+	<script src="./style/js/jquery.zoom.min.js"></script>
+	<script src="./style/js/main.js"></script>
 
 </body>
 
