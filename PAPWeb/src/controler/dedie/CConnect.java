@@ -16,7 +16,7 @@ import PAP.SESSION.IApplication;
 public class CConnect implements ICTreatment {
 	Context ctx;
 	IApplication app;
-	String name,email;
+	String name,email,pass,city;
 	
 	public CConnect() throws NamingException {
 		ctx = new InitialContext();

@@ -26,11 +26,9 @@ public class CSearch implements ICTreatment {
 			try {
 				
 					List<ObjectPAPForClient> listeResultat = app.search(name,city);
+					
 					request.setAttribute("liste", listeResultat);
-			        request.setAttribute( "name", name );
-			        request.setAttribute( "city", city);
-			        request.setAttribute( "city", city);
-			        request.setAttribute( "city", city);
+			       
 				
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
@@ -42,7 +40,7 @@ public class CSearch implements ICTreatment {
 
 
 		//
-		RequestDispatcher dispatch = request.getRequestDispatcher("./View/searchAns.jsp");
+		RequestDispatcher dispatch = request.getRequestDispatcher("./View/buyAns.jsp");
 		dispatch.forward(request, response);
 	
 	}
