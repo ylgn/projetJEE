@@ -1,7 +1,21 @@
 package PAP.REST;
 
 import java.util.List;
+import java.util.Properties;
 
+import javax.mail.Authenticator;
+import javax.mail.BodyPart;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.Multipart;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.AddressException;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -13,6 +27,9 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import com.sun.mail.smtp.SaslAuthenticator;
+
+import PAP.MODEL.CLIENT.MailPAPForClient;
 import PAP.MODEL.CLIENT.ObjectPAPForClient;
 import PAP.SESSION.IApplication;
 
@@ -98,23 +115,64 @@ public class resourcesAPI {
  		
  	}
  	
- 	/*
- 	@GET
-	@Path("objects")
-	@Produces({MediaType.APPLICATION_JSON})
- 	public List<ObjectPAP> getObjects(){
- 		try {
-			ctx = new InitialContext();
-			app = (IApplication) ctx.lookup("ejb/PAP");
-		} catch (NamingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
- 		return app.getlistTest();
  	
+ 	@POST
+	@Path("mail")
+	@Consumes(MediaType.APPLICATION_JSON)
+ 	public void sendMail(MailPAPForClient m){
+ 		 // Recipient's email ID needs to be mentioned.
+ 		
+
+ 	       String to =  m.getRecipiant();
+
+ 	      // Sender's email ID needs to be mentioned
+ 	      String from = "pap.projet@outlook.com";
+ 	      String password = "paris16iut143";
+
+ 	      // Assuming you are sending email through relay.jangosmtp.net
+ 	      String host =  "smtp.office365.com";
+
+ 	  
+
+ 	     Properties prop = new Properties();
+ 	    prop.put("mail.smtp.auth", true);
+ 	    prop.put("mail.smtp.starttls.enable", "true");
+ 	    prop.put("mail.smtp.host", host);
+ 	    prop.put("mail.smtp.port", "587");
+ 	    prop.put("mail.smtp.ssl.trust", host);
+ 	    
+ 	   Session session = Session.getInstance(prop, new Authenticator() {
+ 		    @Override
+ 		    protected PasswordAuthentication getPasswordAuthentication() {
+ 		        return new PasswordAuthentication(from, password);
+ 		    }
+ 		});
+ 	   
+ 	  Message message = new MimeMessage(session);
+ 	 try {
+		message.setFrom(new InternetAddress(from));
+		message.setRecipients(
+		Message.RecipientType.TO, InternetAddress.parse(to));
+		message.setSubject(m.getOb());
+			 	  
+		String msg = m.getContent();
+			 	  
+		MimeBodyPart mimeBodyPart = new MimeBodyPart();
+		mimeBodyPart.setContent(msg, "text/html");
+			 	  
+		Multipart multipart = new MimeMultipart();
+		multipart.addBodyPart(mimeBodyPart);
+			 	  
+		message.setContent(multipart);
+			 	  
+		Transport.send(message);
+	} catch (MessagingException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+ 	 
  	}
  	
- */
+ 
  
 }

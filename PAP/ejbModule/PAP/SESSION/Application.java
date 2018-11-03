@@ -1,18 +1,26 @@
 package PAP.SESSION;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Entity;
+import javax.ws.rs.client.Invocation;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.MediaType;
 
 import PAP.ENTITY.ObjectPAP;
 import PAP.ENTITY.TransactionPAP;
 import PAP.ENTITY.UserPAP;
 import PAP.EXCEPTION.AlreadyExistsUserException;
 import PAP.EXCEPTION.DoesntExistException;
+import PAP.MODEL.CLIENT.MailPAPForClient;
 import PAP.MODEL.CLIENT.ObjectPAPForClient;
 
 
@@ -94,8 +102,16 @@ public class Application implements IApplication {
 		UserPAP owner = getUserByMail(mailBuyeur);
 		currentObject.setSelled();
 		em.merge(currentObject);
-		em.persist(new TransactionPAP(owner, seller, currentObject));
-
+		TransactionPAP tr = new TransactionPAP(owner, seller, currentObject);
+		em.persist(tr);
+		String objSeller = styleMailObject(seller.getName(), currentObject.getNameObject(), true);
+		String objOwner = styleMailObject(owner.getName(), currentObject.getNameObject(), false);
+		String contentSeller = styleMailContent(owner.getName(), seller.getName(), currentObject.getNameObject(),
+				currentObject.getPriceObject(), tr.getDateTransact(), true);
+		String contentOwner = styleMailContent(owner.getName(), seller.getName(), currentObject.getNameObject(),
+				currentObject.getPriceObject(), tr.getDateTransact(), false);
+		sendMail(seller.getMail(), objSeller, contentSeller);
+		sendMail(seller.getMail(), objOwner, contentOwner);
 	}
 
 	@Override
@@ -131,7 +147,34 @@ public class Application implements IApplication {
 				}
 			}return null;
 	}
-
+	
+	
+	public void sendMail(String mailRecipient, String object, String textMsg) {
+		
+		Client clientRest = ClientBuilder.newClient();
+		WebTarget ressource = clientRest.target("http://51.68.226.60:8080/PAPFunctions/rest");
+		ressource = ressource.path("resources/mail");
+		Invocation.Builder httpQuery = ressource.request();
+		Entity<MailPAPForClient> monEntity = Entity.json(new MailPAPForClient(mailRecipient, object, textMsg));
+		MailPAPForClient mailCreated = httpQuery.accept(MediaType.APPLICATION_JSON).post(monEntity,MailPAPForClient.class);
+	}
+	
+	public String styleMailObject(String name, String nameObject,Boolean seller) {
+		//Utile en maintenabilité car si il y a plusieur langue à l'avenir on peut charger des bibiliothèque dedans
+		if (seller) {
+			return name+", votre "+nameObject+" a été vendu !";
+		}else {
+		return name+", confiramation d'achat de votre "+nameObject+"!";
+		}
+	}
+	
+	public String styleMailContent(String nameOwner, String nameSeller, String nameObject, double price,Date date,Boolean seller) {
+		if (seller) {
+			return nameOwner+" a acheté votre "+nameObject+" au prix de "+price+"le "+date.toString();
+		}else {
+			return " Vous avez bien acheté le"+nameObject+" de "+nameSeller+" au prix de "+price+"le "+date.toString();
+		}
+	}
 
 
 	
