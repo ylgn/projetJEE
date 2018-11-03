@@ -17,7 +17,7 @@ import javax.ws.rs.client.Invocation;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 
-import PAP.MODEL.ObjectPAPForClient;
+import PAP.MODEL.CLIENT.ObjectPAPForClient;
 import PAP.SESSION.IApplication;
 
 public class CDrop implements ICTreatment {

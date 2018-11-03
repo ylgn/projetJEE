@@ -1,7 +1,7 @@
 package PAP.ENTITY;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -31,13 +31,12 @@ public class TransactionPAP implements Serializable {
 		
 	}
 
-	public TransactionPAP(int numTransact, UserPAP owner, UserPAP seller, ObjectPAP objectTransact, Date dateTransact) {
+	public TransactionPAP(UserPAP owner, UserPAP seller, ObjectPAP objectTransact) {
 		super();
-		this.numTransact = numTransact;
 		this.owner = owner;
 		this.seller = seller;
 		this.objectTransact = objectTransact;
-		this.dateTransact = dateTransact;
+		this.dateTransact = new Date();
 		this.objectTransact.setSelled();
 	}
 

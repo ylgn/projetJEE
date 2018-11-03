@@ -1,6 +1,5 @@
 package PAP.REST;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.naming.Context;
@@ -14,8 +13,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import PAP.ENTITY.ObjectPAP;
-import PAP.MODEL.ObjectPAPForClient;
+import PAP.MODEL.CLIENT.ObjectPAPForClient;
 import PAP.SESSION.IApplication;
 
 @Path("resources")
@@ -72,12 +70,31 @@ public class resourcesAPI {
 			e.printStackTrace();
 			
 		}
- 		List<ObjectPAP> l = app.search(name, city);
- 		List<ObjectPAPForClient> returnedList = new ArrayList<>();
- 		for (ObjectPAP o : l) {
-			returnedList.add(new ObjectPAPForClient(o.getSeller().getMail(), o.getNameObject(), o.getDescriptionObject(), o.getPriceObject(), o.getCityObject()));
+ 		
+ 		return app.search(name, city);
+ 		
+ 	}
+ 	
+ 	@GET
+	@Path("turnover/{key}")
+	@Produces({MediaType.APPLICATION_JSON})
+ 	public Double getTurnover(@PathParam("key") String key){
+ 	//Pas secure, car un bot pour essayer de se connecter en essayant toutes les combinaison possbiles
+ 		//A imaginer par l'avenir
+ 		
+ 		try {
+			ctx = new InitialContext();
+			app = (IApplication) ctx.lookup("ejb/PAP");
+		} catch (NamingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			
 		}
- 		return returnedList;
+ 		if (key.equals("2018")) {
+ 			return app.calculateTurnover();
+		}
+		return null;
+ 		
  		
  	}
  	
