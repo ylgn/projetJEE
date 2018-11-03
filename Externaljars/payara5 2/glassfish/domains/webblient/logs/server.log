@@ -8798,3 +8798,54 @@ Caused by: javax.naming.NameNotFoundException: PAP not found
 [2018-11-03T15:30:51.577+0100] [Payara 5.183] [GRAVE] [] [javax.enterprise.web.util] [tid: _ThreadID=166 _ThreadName=admin-thread-pool::admin-listener(3)] [timeMillis: 1541255451577] [levelValue: 1000] [[
   The web application [/PAPWeb] created a ThreadLocal with key of type [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1] (value [org.glassfish.pfl.dynamic.codegen.impl.CurrentClassLoader$1@54f5bb52]) and a value of type [org.glassfish.web.loader.WebappClassLoader] (value [WebappClassLoader (delegate=true; repositories=WEB-INF/classes/) Object: 5e653aae Created: 3 nov. 2018 14:27:25]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
 
+[2018-11-03T18:30:26.287+0100] [Payara 5.183] [INFOS] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541266226287] [levelValue: 800] [[
+  Loading application [PAPWeb] at [/PAPWeb]]]
+
+[2018-11-03T18:30:26.383+0100] [Payara 5.183] [INFOS] [] [javax.enterprise.system.core] [tid: _ThreadID=51 _ThreadName=admin-thread-pool::admin-listener(2)] [timeMillis: 1541266226383] [levelValue: 800] [[
+  PAPWeb was successfully deployed in 340 milliseconds.]]
+
+[2018-11-03T18:31:53.116+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541266313116] [levelValue: 800] [[
+  subscribe]]
+
+[2018-11-03T18:31:53.117+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541266313117] [levelValue: 800] [[
+  controler.dedie.CSubscribe]]
+
+[2018-11-03T18:32:16.276+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541266336276] [levelValue: 800] [[
+  connect]]
+
+[2018-11-03T18:32:16.276+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541266336276] [levelValue: 800] [[
+  controler.dedie.CConnect]]
+
+[2018-11-03T18:32:16.449+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541266336449] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T18:32:16.449+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541266336449] [levelValue: 800] [[
+  yannis]]
+
+[2018-11-03T18:32:16.528+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541266336528] [levelValue: 800] [[
+  yannis.le-guen@hotmail.fr]]
+
+[2018-11-03T18:33:09.036+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541266389036] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T18:33:09.036+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541266389036] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T18:34:17.118+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541266457118] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T18:34:17.118+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=31 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1541266457118] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T18:36:59.329+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541266619329] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T18:36:59.334+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=30 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1541266619334] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
+[2018-11-03T18:38:11.564+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541266691564] [levelValue: 800] [[
+  sell]]
+
+[2018-11-03T18:38:11.565+0100] [Payara 5.183] [INFOS] [] [] [tid: _ThreadID=33 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1541266691565] [levelValue: 800] [[
+  controler.dedie.CDrop]]
+
