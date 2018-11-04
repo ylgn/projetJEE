@@ -1,5 +1,17 @@
+<%@ page contentType="text/html" pageEncoding="utf-8"%>
+<%@ page import ="java.util.ArrayList"%>
+<%@ page import ="java.util.List"%>
+<%@ page import ="PAP.MODEL.CLIENT.ObjectPAPForClient"%>
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<% List<ObjectPAPForClient> obs = new ArrayList<ObjectPAPForClient>();
+HttpSession currentSession = request.getSession();
+%>
+
+
+<html>
 
 <head>
 	<meta charset="utf-8">
@@ -67,15 +79,15 @@
 				<div class="pull-left">
 					<!-- Logo -->
 					<div class="header-logo">
-						<a class="logo" href="#">
-							<img src="../style/img/logo.png" alt="">
+						<a class="logo" href="index.html">
+							<img src="./style/img/logo.png" alt="">
 						</a>
 					</div>
 					<!-- /Logo -->
 
 					<!-- Search -->
-					<div class="header-search">
-						<form id="form" action="../CAppli" method="post">
+						<div class="header-search">
+						<form id="form" action="./CAppli" method="post">
 							<input class="input search-input" type="text" placeholder="Entrez des mots clés" name="name">
 							<input class="input search-categories" type="text" placeholder="Ville" name="city">
 							<div>
@@ -99,12 +111,12 @@
 							</div>
 							
 							<ul class="custom-menu">
-								<li><a href="login.html"><i class="fa fa-user-o"></i>Se connecter</a></li>
+								<li><a href="./View/login.html"><i class="fa fa-user-o"></i>Se connecter</a></li>
 								<!-- <li><a href="#"><i class="fa fa-heart-o"></i> My Wishlist</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-exchange"></i> Compare</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-check"></i> Checkout</a></li> -->
 								<!-- <li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li> -->
-								<li><a href="subscribe.html"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
+								<li><a href="./View/subscribe.html"><i class="fa fa-user-plus"></i>S'inscrire</a></li>
 							</ul>
 						</li>
 						<!-- /Account -->
@@ -131,12 +143,11 @@
 		<div class="container">
 			<div id="responsive-nav">
 				<!-- category nav -->
-				<div class="category-nav">
-					<span class="category-header">acheter</span>
+				<div class="category-nav show-on-click">
+					<span class="category-header">acheter<i class="fa fa-list"></i></span>
 					<ul class="category-list">
-						
-						
-						<li><a href="buy.jsp">tout voir</a></li>
+				
+						<li><a href="./View/buy.html">tout voir</a></li>
 					</ul>
 				</div>
 				<!-- /category nav -->
@@ -145,7 +156,7 @@
 				<div class="menu-nav">
 					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
 					<ul class="menu-list">
-						<li><a href="sell.html">mettre un objet à vendre</a></li>
+						<li><a href="./View/sell.html">mettre un objet à vendre</a></li>
 					</ul>
 				</div>
 				<!-- menu nav -->
@@ -155,43 +166,34 @@
 	</div>
 	<!-- /NAVIGATION -->
 
-	<!-- HOME -->
-	<div id="home">
+		<!-- BREADCRUMB -->
+	<div id="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="./View/index.html">Accueil</a></li>
+				<li class="active">Tout voir</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /BREADCRUMB -->
+
+	<!-- section -->
+	<div class="section">
 		<!-- container -->
 		<div class="container">
-			<!-- home wrap -->
-			<div class="home-wrap">
-				<!-- home slick -->
-				<div id="home-slick">
-					<!-- banner -->
-					<div class="banner banner-1">
-						<img src="../style/img/banner01.jpg" alt="">
-						<div class="banner-caption text-center">
-							<h1 class="primary-color">Achetez les produits les moins chers</h1>
-							<h3 class="white-color font-weak">Entre particuliers</h3>
-							<button class="primary-btn" ><a href="buy.jsp">acheter maintenant</a></button>
-						</div>
-					</div>
-					<!-- /banner -->
+			<!-- row -->
+			<div class="row">
 
-					<!-- banner -->
-					<div class="banner banner-1">
-						<img src="../style/img/banner02.jpg" alt="">
-						<div class="banner-caption">
-							<h1 class="primary-color">mettez en vente des produits<br><span class="white-color font-weak">gratuitement*</span></h1>
-							<button class="primary-btn"><a href="sell.html">vendre</a></button>
-						</div>
-					</div>
-					<!-- /banner -->
-
-				</div>
-				<!-- /home slick -->
+      
+							
+	
+	
 			</div>
-			<!-- /home wrap -->
+			<!-- /row -->
 		</div>
 		<!-- /container -->
 	</div>
-	<!-- /HOME -->
+	<!-- /section -->
 
 	
 	<!-- FOOTER -->
@@ -206,7 +208,7 @@
 						<!-- footer logo -->
 						<div class="footer-logo">
 							<a class="logo" href="#">
-		            <img src="../style/img/logo.png" alt="">
+		            <img src="./style/img/logo.png" alt="">
 		          </a>
 						</div>
 						<!-- /footer logo -->
