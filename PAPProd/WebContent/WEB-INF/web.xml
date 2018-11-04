@@ -5,7 +5,7 @@
 	id="WebApp_ID" version="3.1">
 
 	
-	<display-name>PAPWeb</display-name>
+	<display-name>PAPProd</display-name>
 	<context-param>
 		<param-name>subscribe</param-name>
 		<param-value>controler.dedie.CSubscribe</param-value>

@@ -71,7 +71,8 @@ public class Application implements IApplication {
 		List<ObjectPAP> list = req.getResultList();
 		for (ObjectPAP o : list) {
 			if (o.getNameObject().equals(name) && o.getCityObject().equals(city)) {
-				ObjectPAPForClient ob = new ObjectPAPForClient(o.getSeller().getMail(), o.getNameObject(), o.getDescriptionObject(), o.getPriceObject(), o.getCityObject());
+				ObjectPAPForClient ob = new ObjectPAPForClient(o.getSeller().getMail(), o.getNameObject(), 
+						o.getDescriptionObject(), o.getPriceObject(), o.getCityObject(),o.getIsSelled());
 				ob.setNumObject(o.getNumObject());
 				searchedList.add(ob);
 				
@@ -111,7 +112,7 @@ public class Application implements IApplication {
 		String contentOwner = styleMailContent(owner.getName(), seller.getName(), currentObject.getNameObject(),
 				currentObject.getPriceObject(), tr.getDateTransact(), false);
 		sendMail(seller.getMail(), objSeller, contentSeller);
-		sendMail(seller.getMail(), objOwner, contentOwner);
+		sendMail(mailBuyeur, objOwner, contentOwner);
 	}
 
 	@Override

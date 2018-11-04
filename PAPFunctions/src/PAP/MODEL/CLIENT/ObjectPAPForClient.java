@@ -15,19 +15,20 @@ public class ObjectPAPForClient implements Serializable{
 	private Double priceObject;
 	private String ownerMail;
 	private String cityObject;
-	private Boolean isSelled = false;
+	private Boolean isSelled;
 	
 	
 	public ObjectPAPForClient() {
 		
 	}
 	
-	public ObjectPAPForClient(String mail,String name, String description, double price, String city) {
+	public ObjectPAPForClient(String mail,String name, String description, double price, String city, Boolean isSelled) {
 		this.nameObject =name;
 		this.descriptionObject = description;
 		this.priceObject = price;
 		this.cityObject = city;
 		this.ownerMail= mail;
+		this.isSelled = isSelled;
 		
 		
 		

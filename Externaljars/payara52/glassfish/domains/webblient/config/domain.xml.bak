@@ -49,6 +49,7 @@
   </resources>
   <servers>
     <server config-ref="server-config" name="server">
+      <application-ref ref="PAPWeb" virtual-servers="server"></application-ref>
       <resource-ref ref="jdbc/__TimerPool"></resource-ref>
       <resource-ref ref="jdbc/__default"></resource-ref>
       <resource-ref ref="jdbc/__derby"></resource-ref>
@@ -125,6 +126,9 @@
         </session-config>
       </web-container>
       <microprofile-config></microprofile-config>
+      <ejb-container>
+        <ejb-timer-service></ejb-timer-service>
+      </ejb-container>
       <diagnostic-service></diagnostic-service>
       <security-service>
         <auth-realm classname="com.sun.enterprise.security.auth.realm.file.FileRealm" name="admin-realm">
@@ -489,5 +493,17 @@
   </secure-admin>
   <deployment-groups></deployment-groups>
   <clusters></clusters>
-  <applications></applications>
+  <applications>
+    <application deployment-time="340" context-root="/PAPWeb" object-type="user" name="PAPWeb" directory-deployed="true" location="${com.sun.aas.instanceRootURI}/eclipseApps/PAPWeb/" time-deployed="1541266226319">
+      <property name="archiveType" value="war"></property>
+      <property name="cdiDevModeEnabled" value="false"></property>
+      <property name="keepstate" value="true"></property>
+      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/eclipseApps/PAPWeb/"></property>
+      <property name="defaultAppName" value="PAPWeb"></property>
+      <module name="PAPWeb">
+        <engine sniffer="security"></engine>
+        <engine sniffer="web"></engine>
+      </module>
+    </application>
+  </applications>
 </domain>

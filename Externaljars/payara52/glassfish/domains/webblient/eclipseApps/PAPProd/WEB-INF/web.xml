@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+
+	
+	<display-name>PAPProd</display-name>
+	<context-param>
+		<param-name>subscribe</param-name>
+		<param-value>controler.dedie.CSubscribe</param-value>
+	</context-param>	
+	
+	<context-param>
+		<param-name>connect</param-name>
+		<param-value>controler.dedie.CConnect</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>sell</param-name>
+		<param-value>controler.dedie.CDrop</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>search</param-name>
+		<param-value>controler.dedie.CSearch</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>buy</param-name>
+		<param-value>controler.dedie.CBuy</param-value>
+	</context-param>
+</web-app>

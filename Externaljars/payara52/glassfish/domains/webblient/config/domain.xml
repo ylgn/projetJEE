@@ -50,6 +50,7 @@
   <servers>
     <server config-ref="server-config" name="server">
       <application-ref ref="PAPWeb" virtual-servers="server"></application-ref>
+      <application-ref ref="PAPProd" virtual-servers="server"></application-ref>
       <resource-ref ref="jdbc/__TimerPool"></resource-ref>
       <resource-ref ref="jdbc/__default"></resource-ref>
       <resource-ref ref="jdbc/__derby"></resource-ref>
@@ -126,6 +127,9 @@
         </session-config>
       </web-container>
       <microprofile-config></microprofile-config>
+      <ejb-container>
+        <ejb-timer-service></ejb-timer-service>
+      </ejb-container>
       <diagnostic-service></diagnostic-service>
       <security-service>
         <auth-realm classname="com.sun.enterprise.security.auth.realm.file.FileRealm" name="admin-realm">
@@ -498,6 +502,17 @@
       <property name="appLocation" value="${com.sun.aas.instanceRootURI}/eclipseApps/PAPWeb/"></property>
       <property name="defaultAppName" value="PAPWeb"></property>
       <module name="PAPWeb">
+        <engine sniffer="security"></engine>
+        <engine sniffer="web"></engine>
+      </module>
+    </application>
+    <application deployment-time="937" context-root="/PAPProd" object-type="user" name="PAPProd" directory-deployed="true" location="${com.sun.aas.instanceRootURI}/eclipseApps/PAPProd/" time-deployed="1541338636945">
+      <property name="archiveType" value="war"></property>
+      <property name="cdiDevModeEnabled" value="false"></property>
+      <property name="keepstate" value="true"></property>
+      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/eclipseApps/PAPProd/"></property>
+      <property name="defaultAppName" value="PAPProd"></property>
+      <module name="PAPProd">
         <engine sniffer="security"></engine>
         <engine sniffer="web"></engine>
       </module>
