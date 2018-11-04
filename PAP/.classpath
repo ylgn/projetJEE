@@ -40,6 +40,7 @@
 	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/payara5/glassfish/lib/appserv-rt.jar"/>
 	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/payara5/glassfish/lib/gf-client.jar"/>
 	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/payara5/glassfish/lib/grizzly-npn-bootstrap.jar"/>
+	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/payara5/glassfish/lib/javaee.jar"/>
 	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/payara5/glassfish/lib/jndi-properties.jar"/>
 	<classpathentry kind="lib" path="/Users/ylgn/Desktop/ProjetsEncours/ProjetJEE/Externaljars/payara5/glassfish/lib/mysql-connector-java-8.0.12.jar"/>
 	<classpathentry kind="output" path="build/classes"/>

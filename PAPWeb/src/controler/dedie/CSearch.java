@@ -34,9 +34,16 @@ public class CSearch implements ICTreatment {
 		
 			try {
 				
+
 				List<ObjectPAPForClient> listeResultat = app.search(name,city);
 				request.setAttribute("liste", listeResultat);
 			        //System.out.println(((ObjectPAPForClient) listeResultat).getNameObject());
+
+					List<ObjectPAPForClient> listeResultat = app.search(name,city);
+					
+					request.setAttribute("liste", listeResultat);
+			       
+
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
