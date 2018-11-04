@@ -3,6 +3,9 @@ package controler.dedie;
 import java.io.IOException;
 import java.util.List;
 
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -13,7 +16,13 @@ import PAP.SESSION.IApplication;
 
 public class CSearch implements ICTreatment {
 	IApplication app;
-
+	Context ctx;
+	
+	public CSearch() throws NamingException {
+		ctx = new InitialContext();
+		app = (IApplication) ctx.lookup("ejb/PAP");
+		
+	}
 	@Override
 	public void treatRequest(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException, Exception {
@@ -25,13 +34,9 @@ public class CSearch implements ICTreatment {
 		
 			try {
 				
-					List<ObjectPAPForClient> listeResultat = app.search(name,city);
-					request.setAttribute("liste", listeResultat);
-			        request.setAttribute( "name", name );
-			        request.setAttribute( "city", city);
-			        request.setAttribute( "city", city);
-			        request.setAttribute( "city", city);
-				
+				List<ObjectPAPForClient> listeResultat = app.search(name,city);
+				request.setAttribute("liste", listeResultat);
+			        //System.out.println(((ObjectPAPForClient) listeResultat).getNameObject());
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -39,7 +44,7 @@ public class CSearch implements ICTreatment {
 				System.err.println(e);
 			}
 		
-
+		 
 
 		//
 		RequestDispatcher dispatch = request.getRequestDispatcher("./View/searchAns.jsp");

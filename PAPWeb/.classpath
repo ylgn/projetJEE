@@ -27,12 +27,7 @@
 	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/osgi-resource-locator-1.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/persistence-api-1.0.jar"/>
 	<classpathentry kind="lib" path="C:/projet-paa/projetJEE/Externaljars/jersey-tous-jars/validation-api-1.1.0.Final.jar"/>
-	<classpathentry kind="con" path="org.eclipse.payara.tools.lib.system">
-		<attributes>
-			<attribute name="owner.project.facets" value="jst.web"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>

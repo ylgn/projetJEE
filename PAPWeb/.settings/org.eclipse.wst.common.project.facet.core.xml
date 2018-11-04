@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faceted-project>
-  <runtime name="Payara Server 5 (5.183) (2)"/>
-  <secondary-runtime name="webserv"/>
   <fixed facet="jst.web"/>
   <fixed facet="java"/>
   <fixed facet="wst.jsdt.web"/>

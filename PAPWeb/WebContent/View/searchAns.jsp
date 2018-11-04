@@ -2,12 +2,10 @@
 <%@ page import ="java.util.ArrayList"%>
 <%@ page import ="java.util.List"%>
 <%@ page import ="PAP.MODEL.CLIENT.*"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <!DOCTYPE html>
 <%
-	List<ObjectPAPForClient> listeResultat = (List<ObjectPAPForClient>) request.getAttribute("liste");
-
-	
+	List<ObjectPAPForClient> listeResultat = (List<ObjectPAPForClient>) request.getAttribute("liste");	
 %>
 <html>
 
@@ -336,19 +334,28 @@
 		<div class="container">
 			<!-- row -->
 			<div class="row">
+								
+								
+								<% if (listeResultat.isEmpty()==true) { %>
+									<h4>Votre recherche ne correspond à aucun objets en vente</h4>
+								<%}	else { %>
+	<% 								
+	String name = listeResultat.get(0).getNameObject();
+	String city = listeResultat.get(0).getCityObject();
+	String desc = listeResultat.get(0).getDescriptionObject();
+	String mail = listeResultat.get(0).getSeller();
+	double price = listeResultat.get(0).getPriceObject();
+	int num = listeResultat.get(0).getNumObject();
+	%>
+	
+										 <%= name %> ;
+										 <%= city %> ;
+										 <%= desc %> ;
+										 <%= mail %> ;
+										 <%= price %> ;
+								<%} %>
 									
-								
-								
-							<table>
-							   <tbody>
-							      <c:forEach var="itemSearch" items="${liste}" >
-							          <tr>
-							              <td><c:out value="${itemSearch.name}"></c:out></td>
-							              <td><c:out value="${itemSearch.city}"></c:out></td>
-							          </tr>
-							      </c:forEach>
-							   </tbody>
-							</table>
+
 	
 	
 
