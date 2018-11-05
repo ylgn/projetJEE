@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Mon Oct 01 09:18:34 CEST 2018*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "Banque", "conversionEuroDollar,Remote,double";
+  permission javax.security.jacc.EJBMethodPermission "Banque", "conversionDollarEuro,Remote,double";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "Banque", "**";
+};
+

@@ -1,0 +1,11 @@
+/* AUTOMATICALLY GENERATED ON Mon Oct 01 11:51:31 CEST 2018*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "Banque", "ouvrirCompte,Remote,java.lang.String";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "Banque", "**";
+};
+

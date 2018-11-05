@@ -1,0 +1,49 @@
+[2018-09-21T11:55:57.814+0200] [Payara 5.183] [INFOS] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1537523757641] [timeMillis: 1537523757814] [levelValue: 800] [[
+  Running Payara Version: Payara Server  5.183 #badassfish (build 380)]]
+
+[2018-09-21T11:55:57.817+0200] [Payara 5.183] [INFOS] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=21 _ThreadName=RunLevelControllerThread-1537523757641] [timeMillis: 1537523757817] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2018-09-21T11:55:58.357+0200] [Payara 5.183] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523758357] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.12.Final]]
+
+[2018-09-21T11:55:58.749+0200] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523758749] [levelValue: 800] [[
+  Network Listener http-listener-1 started in: 9ms - bound to [/0.0.0.0:8080]]]
+
+[2018-09-21T11:55:58.775+0200] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523758775] [levelValue: 800] [[
+  Network Listener http-listener-2 started in: 1ms - bound to [/0.0.0.0:8181]]]
+
+[2018-09-21T11:55:58.780+0200] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523758780] [levelValue: 800] [[
+  Network Listener admin-listener started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2018-09-21T11:55:58.781+0200] [Payara 5.183] [INFOS] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523758781] [levelValue: 800] [[
+  Grizzly 2.4.3 started in: 574ms - bound to [http-listener-1:8080, http-listener-2:8181, admin-listener:4848]]]
+
+[2018-09-21T11:55:58.956+0200] [Payara 5.183] [INFOS] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=20 _ThreadName=RunLevelControllerThread-1537523757640] [timeMillis: 1537523758956] [levelValue: 800] [[
+  Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry]]
+
+[2018-09-21T11:55:59.044+0200] [Payara 5.183] [INFOS] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=23 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523759044] [levelValue: 800] [[
+  Network Listener iiop-service started in: 1ms - bound to [/0.0.0.0:3700]]]
+
+[2018-09-21T11:56:02.755+0200] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523762755] [levelValue: 800] [[
+  Hazelcast Instance Bound to JNDI at payara/Hazelcast]]
+
+[2018-09-21T11:56:02.756+0200] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523762756] [levelValue: 800] [[
+  JSR107 Caching Provider Bound to JNDI at payara/CachingProvider]]
+
+[2018-09-21T11:56:02.756+0200] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=22 _ThreadName=RunLevelControllerThread-1537523757649] [timeMillis: 1537523762756] [levelValue: 800] [[
+  JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager]]
+
+[2018-09-21T11:56:02.892+0200] [Payara 5.183] [INFOS] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1537523762892] [levelValue: 800] [[
+  Payara Server  5.183 #badassfish (380) startup time : Felix (13 834ms), startup services(5 259ms), total(19 093ms)]]
+
+[2018-09-21T11:56:02.891+0200] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.cluster.PayaraCluster] [tid: _ThreadID=97 _ThreadName=Executor-Service-1] [timeMillis: 1537523762891] [levelValue: 800] [[
+  Data Grid Status 
+Payara Data Grid State: DG Version: 35 DG Size: 1
+Instances: {
+Address: /10.30.13.224:4900 UUID: 7d5dc829-8578-4163-8567-2c42ff026d82 Lite: false This: true Name: server Group: server-config
+}]]
+
+[2018-09-21T11:56:02.921+0200] [Payara 5.183] [INFOS] [] [fish.payara.nucleus.notification.NotificationService] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1537523762921] [levelValue: 800] [[
+  Payara Notification Service bootstrapped with configuration: NotificationExecutionOptions{enabled=true, notifierConfigurationExecutionOptionsList={LOG=LogNotifierConfigurationExecutionOptions{useSeparateLogFile=false} NotifierConfigurationExecutionOptions{notifierType=LOG, enabled=true, noisy=true}}}]]
+

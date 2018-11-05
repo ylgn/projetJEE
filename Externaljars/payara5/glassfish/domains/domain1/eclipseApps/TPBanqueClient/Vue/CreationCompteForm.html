@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Création de compte</title>
+</head>
+<body>
+
+	<form action="../controleur" method="post">
+		<h2> Formulaire de création de compte </h2> <br/>
+		Nom : <input name="nom" />  <br/>	
+		<!-- Ce paramètre http servira au controleur à identifier la fonction métier de la requête http -->	
+		<input type="hidden" name="fonction" value ="creation_compte" />
+		<button> Valider </button>
+	</form>
+	
+</body>
+</html>
